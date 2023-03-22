@@ -1,4 +1,5 @@
 {
+  "homepage": "http://bobinstein.github.io/bobinstein.github.io",
   "name": "ar-io-docs",
   "version": "0.0.1",
   "description": "",
@@ -11,10 +12,15 @@
   "scripts": {
     "dev": "vuepress dev src",
     "build": "vuepress build src",
-    "preview": ""
+    "preview": "",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build"
   },
   "license": "MIT",
   "devDependencies": {
     "vuepress": "^1.5.3"
+  },
+  "dependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
