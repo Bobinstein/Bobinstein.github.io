@@ -2,11 +2,10 @@
   "name": "vuepress-test-site",
   "homepage": "http://bobinstein.github.io/",
   "scripts": {
-    "dev": "vuepress dev src",
-    "build": "vuepress build src",
-    "preview": "",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "build": "npm build",
+    "preview": ""
   },
   "dependencies": {
     "gh-pages": "^5.0.0"
