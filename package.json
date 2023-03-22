@@ -1,5 +1,5 @@
 {
-  "homepage": "http://bobinstein.github.io",
+  "homepage": "http://bobinstein.github.io/bobinstein.github.io",
   "scripts": {
     "dev": "vuepress dev src",
     "build": "vuepress build src",
