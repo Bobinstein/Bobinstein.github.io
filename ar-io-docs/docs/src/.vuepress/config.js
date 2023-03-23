@@ -6,6 +6,7 @@ module.exports = {
    */
   title: 'Vuepress Docs Boilerplate',
   base: 'bobinstein.github.io/base',
+  theme: "book",
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
