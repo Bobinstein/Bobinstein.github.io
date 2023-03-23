@@ -6,7 +6,7 @@ module.exports = {
    */
   title: 'Ar.io docs',
   base: '/docs/',
-  theme: "book",
+ 
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
