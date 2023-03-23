@@ -1,6 +1,6 @@
 {
-  "name": "vuepress-test-site",
   "homepage": "http://bobinstein.github.io/",
+  "name": "vuepress-test-site",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
