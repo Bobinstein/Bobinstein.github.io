@@ -1,5 +1,5 @@
 {
-  "homepage": "http://bobinstein.github.io/docs",
+  "homepage": "./docs",
   "name": "ar-io-docs",
   "version": "0.0.1",
   "description": "",
@@ -8,7 +8,7 @@
     "name": "",
     "email": ""
   },
-  "repository": "/ar-io-docs",
+  "repository": "/bobinstein.github.io",
   "scripts": {
     "dev": "vuepress dev src",
     "build": "vuepress build src",
