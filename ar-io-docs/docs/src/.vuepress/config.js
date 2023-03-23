@@ -5,7 +5,7 @@ module.exports = {
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
   title: 'Vuepress Docs Boilerplate',
-  base: 'bobinstein.github.io/base',
+  base: '/',
   theme: "book",
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
@@ -37,11 +37,11 @@ module.exports = {
     nav: [
       {
         text: 'Guide',
-        link: '/guide/',
+        link: 'docs/guide/',
       },
       {
         text: 'Config',
-        link: '/config/'
+        link: 'docs/config/'
       },
       {
         text: 'VuePress',
@@ -49,13 +49,14 @@ module.exports = {
       }
     ],
     sidebar: {
-      '/guide/': [
+      'docs/guide/': [
         {
           title: 'Guide',
           collapsable: false,
           children: [
-            '',
-            'using-vue',
+            'Ardive',
+            'Getting Started',
+            'Using the CLI',
           ]
         }
       ],
