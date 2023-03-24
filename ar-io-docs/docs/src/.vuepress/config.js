@@ -33,15 +33,19 @@ module.exports = {
     editLinks: false,
     docsDir: '',
     editLinkText: '',
-    lastUpdated: false,
+    lastUpdated: true,
     nav: [
       {
+        text: 'Ardrive-cli',
+        link: '/ardrive-cli/'
+      },
+      {
         text: 'Guide',
-        link: 'guide/',
+        link: '/guide/',
       },
       {
         text: 'Config',
-        link: 'config/'
+        link: '/config/'
       },
       {
         text: 'VuePress',

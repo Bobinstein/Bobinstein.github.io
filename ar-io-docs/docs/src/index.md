@@ -6,10 +6,10 @@ actionText: Quick Start →
 actionLink: /guide/
 features:
 - title: Ardive CLI
-  details: click for CLI docs
+  details: This does nothing yet
 - title: Ardrive Sync
-  details: click for sync docs
+  details: also nothing
 - title: Price calculator
-  details: Click for price calculator docs
+  details: why did I bother to change these before making them do something?
 footer: A work in progress
 ---
