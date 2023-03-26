@@ -9,6 +9,70 @@ The _ArDrive Command Line Interface (CLI)_ is a Node.js application for terminal
 
 Create your first drive and permanently store your first file on the permaweb with a series of simple CLI commands like so:
 
+```shell
+ardrive create-drive --wallet-file /path/to/my/wallet.json --drive-name "Teenage Love Poetry"
+{
+    "created": [
+        {
+            "type": "drive",
+            "metadataTxId": "giv2R8Xj0bbe6l5taBTQJk_38zwIrMH_g1-knSCisjU",
+            "entityId": "898687ea-b678-4f86-b4e7-49560b190356",
+            "bundledIn": "Vj2x4IBEAezBvhj5RgtA247W_q3S10suI6l0E30GPoE",
+            "entityName": "Teenage Love Poetry"
+        },
+        {
+            "type": "folder",
+            "metadataTxId": "VljnttwUxRStnVuPYakF9e2whjhYJVWB0nSxD5dVyJ8",
+            "entityId": "f0c58c11-430c-4383-8e54-4d864cc7e927",
+            "bundledIn": "Vj2x4IBEAezBvhj5RgtA247W_q3S10suI6l0E30GPoE",
+            "entityName": "Teenage Love Poetry"
+        },
+        {
+            "type": "bundle",
+            "bundleTxId": "Vj2x4IBEAezBvhj5RgtA247W_q3S10suI6l0E30GPoE"
+        }
+    ],
+    "tips": [],
+    "fees": {
+        "Vj2x4IBEAezBvhj5RgtA247W_q3S10suI6l0E30GPoE": "44579472"
+    }
+}
+
+ardrive upload-file --wallet-file /path/to/my/wallet.json --parent-folder-id "f0c58c11-430c-4383-8e54-4d864cc7e927" --local-path ./helloworld.txt --dest-file-name "ode_to_ardrive.txt"
+{
+    "created": [
+        {
+            "type": "file",
+            "entityName": "ode_to_ardrive.txt",
+            "entityId": "bd2ce978-6ede-4b0d-8f79-2d7bc235a0e0",
+            "dataTxId": "tSMcfvAQu_tKLUkdvRRbqdX93oAf3h6c9eJsSj8mXL4",
+            "metadataTxId": "EvE06MmE9IKeUzFMnxSgY1M5tJX4uHU64-n8Pf_lZfU",
+            "bundledIn": "qjdHiQoWlSjCvhj5RgtA247W_q3S10suI6l0E30GPoE",
+            "sourceUri": "file://Users/BestArDriver/Uploads/helloworld.txt"
+        },
+        {
+            "type": "bundle",
+            "bundleTxId": "qjdHiQoWlSjCvhj5RgtA247W_q3S10suI6l0E30GPoE"
+        }
+    ],
+    "tips": [
+        {
+            "txId": "qjdHiQoWlSjCvhj5RgtA247W_q3S10suI6l0E30GPoE",
+            "recipient": {
+                "address": "i325n3L2UvgcavEM8UnFfY0OWBiyf2RrbNsLStPI73o"
+            },
+            "winston": "10000000"
+        }
+    ],
+    "fees": {
+        "qjdHiQoWlSjCvhj5RgtA247W_q3S10suI6l0E30GPoE": 44579472
+    }
+}
+```
+
+**This project is in a state of active development. Use at your own risk!**
+
+
 
 # ArDrive
 
@@ -16,7 +80,7 @@ Create your first drive and permanently store your first file on the permaweb wi
 
 ## ArFS
 
-- [ArFS] is a data modeling, storage, and retrieval protocol designed to emulate common file system operations and to provide aspects of mutability to your data hierarchy on [Arweave]'s otherwise permanent, immutable data storage blockweave.
+[ArFS] is a data modeling, storage, and retrieval protocol designed to emulate common file system operations and to provide aspects of mutability to your data hierarchy on [Arweave]'s otherwise permanent, immutable data storage blockweave.
 
 ## Data Portability
 
@@ -66,7 +130,6 @@ Follow these steps to get NVM up and running on your system:
 4. Use the correct version of Node, by performing: `nvm use`
 
 **IT IS STRONGLY RECOMMENDED THAT YOU AVOID GENERATING WALLETS VIA SEED PHRASE WITH THE CLI USING ANY NODE VERSION OTHER THAN THE ONE SPECIFIED IN `.nvmrc`.**
-
 
 ## Quick Start
 
@@ -388,7 +451,6 @@ Useful notes on listing the contents of drives:
 <li>Listing a drive is effectively the same as listing its root folder.</li>
 <li>You can control the tree depth of the data returned.</li>
 <li>path, txPath, and entityIdPath properties on entities can provide useful handholds for other forms of data navigation</li>
-</li>
 </ul>
 
 ```shell
@@ -455,7 +517,23 @@ ardrive create-folder --parent-folder-id "63153bb3-2ca9-4d42-9106-0ce82e793321" 
 
 Example output:
 
-
+```shell
+{
+    "created": [
+        {
+            "type": "folder",
+            "metadataTxId": "AYFMBVmwqhbg9y5Fbj3Iasy5oxUqhauOW7PcS1sl4Dk",
+            "entityId": "d1b7c514-fb12-4603-aad8-002cf63015d3",
+            "key": "yHdCjpCKD2cuhQcKNx2d/XF5ReEjoKfZVqKunlCnPEk",
+            "entityName": "My Awesome Folder"
+        }
+    ],
+    "tips": [],
+    "fees": {
+        "AYFMBVmwqhbg9y5Fbj3Iasy5oxUqhauOW7PcS1sl4Dk": 1378052
+    }
+}
+```
 
 Note: Folders can also be created by supplying a folder as the --local-path of an upload-file command. In this case, the folder hierarchy on the local disk will be reconstructed on chain during the course of the recursive bulk upload.
 
@@ -605,7 +683,39 @@ To upload a file, you'll need a parent folder id, the file to upload's file path
 ardrive upload-file --local-path /path/to/file.txt  --parent-folder-id "9af694f6-4cfc-4eee-88a8-1b02704760c0" -w /path/to/wallet.json
 ```
 
+Example output:
 
+```shell
+{
+    "created": [
+        {
+            "type": "file",
+            "entityName": "file.txt"
+            "entityId": "6613395a-cf19-4420-846a-f88b7b765c05"
+            "dataTxId": "l4iNWyBapfAIj7OU-nB8z9XrBhawyqzs5O9qhk-3EnI",
+            "metadataTxId": "YfdDXUyerPCpBbGTm_gv_x5hR3tu5fnz8bM-jPL__JE",
+            "bundledIn": "1zwdfZAIV8E26YjBs2ZQ4xjjP_1ewalvRgD_GyYw7f8",
+            "sourceUri": "file:///path/to/file.txt"
+        },
+        {
+            "type": "bundle",
+            "bundleTxId": "1zwdfZAIV8E26YjBs2ZQ4xjjP_1ewalvRgD_GyYw7f8"
+        }
+    ],
+    "tips": [
+        {
+            "txId": "1zwdfZAIV8E26YjBs2ZQ4xjjP_1ewalvRgD_GyYw7f8",
+            "recipient": {
+                "address": "3mxGJ4xLcQQNv6_TiKx0F0d5XVE0mNvONQI5GZXJXkt"
+            },
+            "winston": "10000000"
+        }
+    ],
+    "fees": {
+        "1zwdfZAIV8E26YjBs2ZQ4xjjP_1ewalvRgD_GyYw7f8": 42819829
+    }
+}
+```
 
 NOTE: To upload to the root of a drive, specify its root folder ID as the parent folder ID for the upload destination. You can retrieve it like so:
 
@@ -861,7 +971,16 @@ ardrive move-file --file-id "e5ebc14c-5b2d-4462-8f59-7f4a62e7770f" --parent-fold
 
 [Arweave Path Manifests][arweave-manifests] are are special `.json` files that instruct Arweave Gateways to map file data associated with specific, unique transaction IDs to customized, hosted paths relative to that of the manifest file itself. So if, for example, your manifest file had an arweave.net URL like:
 
+```shell
+https://arweave.net/{manifest tx id}
+```
 
+Then, all the mapped transactions and paths in the manifest file would be addressable at URLs like:
+
+```shell
+https://arweave.net/{manifest tx id}/foo.txt
+https://arweave.net/{manifest tx id}/bar/baz.png
+```
 
 ArDrive supports the creation of these Arweave manifests using any of your PUBLIC folders. The generated manifest paths will be links to each of the file entities within the specified folder. The manifest file entity will be created at the root of the folder.
 
@@ -955,7 +1074,14 @@ ardrive create-manifest -f "41759f05-614d-45ad-846b-63f3767504a4" -w "/path/to/w
 
 In the return output, the top link will be a link to the deployed web app:
 
-
+```shell
+    "links": [
+        "https://arweave.net/0MK68J8TqGhaaOpPe713Zn0jdpczMt2NGS2CtRYiuAg",
+        "https://arweave.net/0MK68J8TqGhaaOpPe713Zn0jdpczMt2NGS2CtRYiuAg/asset-manifest.json",
+        "https://arweave.net/0MK68J8TqGhaaOpPe713Zn0jdpczMt2NGS2CtRYiuAg/favicon.ico",
+        "https://arweave.net/0MK68J8TqGhaaOpPe713Zn0jdpczMt2NGS2CtRYiuAg/index.html",
+        # ...
+```
 
 This is effectively hosting a web app with ArDrive. Check out the ArDrive Price Calculator React App hosted as an [ArDrive Manifest][example-manifest-webpage].
 
@@ -1012,6 +1138,7 @@ https://arweave.net/{dataTxId}
 https://arweave.net/{dataTxId}/custom-file-1
 https://arweave.net/{dataTxId}/custom-file-2
 ```
+
 ### Uploading Files with Custom MetaData
 
 ArDrive CLI has the capability of attaching custom metadata to ArFS File and Folder MetaData Transactions during the `upload-file` command. This metadata can be applied to either the GQL tags on the MetaData Transaction and/or into the MetaData Transaction's Data JSON.
@@ -1036,7 +1163,11 @@ export type JsonSerializable =
 
 e.g:
 
-
+```shell
+{ IPFS-Add: 'MY_HASH' }
+# or
+{ 'Custom Name': ['Val 1', 'Val 2'] }
+```
 
 When the custom metadata is attached to the MetaData Transaction's GQL tags, they will become visible on any Arweave GQL gateway and also third party tools that read GQL data.
 
@@ -1156,6 +1287,9 @@ watch -n 10 ardrive tx-status -t "ekSMckikdRJ8RGIkFa-X3xq3427tvM7J9adv8HP3Bzs"
 
 Currently, Arweave blocks hold up to 1000 transactions per block. The "mempool", where pending transactions reside until they've been included into a block, will only hold a transaction for 50 blocks (~100-150 minutes) before it's discarded by the network resulting in no fees or data being transacted. During periods of network congestion (i.e. those where the mempool contains 1000 or more pending transactions), it may make sense to either:
 
+a) wait for congestion to dissipate before attempting your transactions.
+
+b) apply the fee boost multiplier to your transactions rewards with the --boost parameter during write operations in order to front-run some of the congestion.
 
 #### Check for network congestion before uploading<a id="check-congestion"></a>
 
