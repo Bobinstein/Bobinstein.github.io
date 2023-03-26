@@ -18,8 +18,7 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/config/#head
    */
   head: [
-    // ["meta", { name: "theme-color", content: "#3eaf7c" }],
-    ["meta", { name: "theme-color", content: "black" }],
+    ["meta", { name: "theme-color", content: "#3eaf7c" }],
     ["meta", { name: "apple-mobile-web-app-capable", content: "yes" }],
     [
       "meta",
@@ -38,18 +37,28 @@ module.exports = {
     docsDir: "",
     editLinkText: "",
     lastUpdated: true,
+    logo: "/images/ArDrive-Logo-Dark.png",
     nav: [
       {
         text: "Ardrive-cli",
-        link: "/ardrive-cli/",
+        items: [
+          { text: "Docs", link: "/ardrive-cli/" },
+          { text: "GitHub", link: "https://github.com/ardriveapp/ardrive-cli" },
+        ],
       },
       {
         text: "Ardrive-core",
-        link: "/ardrive-core/",
+        items: [
+          { text: "Docs", link: "/ardrive-core/" },
+          {
+            text: "GitHub",
+            link: "https://github.com/ardriveapp/ardrive-core-js",
+          },
+        ],
       },
     ],
     sidebar: {
-      "guide/": [
+      "/guide/": [
         {
           title: "Guide",
           collapsable: false,

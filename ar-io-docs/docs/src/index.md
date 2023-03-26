@@ -1,15 +1,10 @@
 ---
 home: true
-heroImage: https://v1.vuepress.vuejs.org/hero.png
-tagline: 
+heroImage: /images/ArDrive-Logo-Dark.png
+heroText: Ardrive Docs
+tagline: demo of docs through vuepress
 actionText: Quick Start →
-actionLink: /ardrive-cli/
-features:
-- title: Ardive CLI
-  details: This does nothing yet
-- title: Ardrive Sync
-  details: also nothing
-- title: Price calculator
-  details: why did I bother to change these before making them do something?
+actionLink: /ardrive-core/
 footer: A work in progress
 ---
+
