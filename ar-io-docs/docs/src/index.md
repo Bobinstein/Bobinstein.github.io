@@ -1,176 +1,994 @@
 ---
 homepage: true
-title: ""
-description: ""
+navbar: false
 ---
 
-<div class='box'>
-<div class="side">
-<ul>
-    <li>Categories
-        <ul>
-            <li>ar.io</li>
-            <li>Governance and staking</li>
-            <li>Arns</li>
-            <li>Ardrive</li>
-        </ul>
-    </li>
-    <li>Getting Set Up
-        <ul>
-            <li>Do this</li>
-            <li>Then this</li>
-            <li>Run some scripts</li>
-            <li>Do a little sumpin' else</li>
-        </ul>
-    </li>
-    <li>For Developers
-        <ul>
-            <li>Build with this</li>
-            <li>Set up these pre-requisites</li>
-            <li>Update this other package</li>
-            <li>Run something</li>
-        </ul>
-    </li>
-    <li>For GateWay Operators
-        <ul>
-            <li>Staking</li>
-            <li>Slashing</li>
-            <li>Voting</li>
-            <li>Submitting a vote</li>
-        </ul>
-    </li>
-    <li>Tags</li>
-    <li>FAQs
-    <ul>
-    <li>Wen This?</li>
-    <li>Wen That?</li>
-    </ul></li>
-</ul>
-</div>
-<div class="content">
-   <div class="tt-col-lg-8">
-	<div id="blog-list" class="bli-image-cropped">
-	<article class="blog-list-item">
-	<a href="blog-post-classic-sidebar.html" class="bli-image-wrap not-hide-cursor" data-cursor="Read<br>More">
-	<figure class="bli-image">
-	<div class="anim-zoomin-wrap" style="overflow: hidden;"><img src="/images/ph-ario.jpg"class="tt-lazy anim-zoomin" alt="Image" style=""></div>
-	</figure>
-	</a>
-	<div class="bli-info">
-	<div class="bli-categories">
-	<a href="blog-archive.html">Gateways</a>
-	</div>
-	<h2 class="bli-title"><a href="blog-post-classic-sidebar.html">Setting up my node</a></h2>
-	<div class="bli-meta">
-	<span class="published">Updated: May 24, 2022</span>
-	<span class="posted-by">- by <a href="blog-archive.html" title="View all posts by Sparkles">Sparkles</a></span>
-	</div>
-	<div class="bli-desc">
-	Phil is here, the Weave is with him. There is a 100% chance of permanent plans.
-	</div>
-	<a href="blog-post.html" class="bli-read-more tt-btn tt-btn-primary" style="background:#000 !important;">
-	<div data-hover="Read More">Read More</div>
-	<span class="tt-btn-icon"><i class="fas fa-arrow-right"></i></span>
-	</a>
-	</div>
-	</article>
-	<article class="blog-list-item">
-	<a href="blog-post-classic-sidebar.html" class="bli-image-wrap not-hide-cursor" data-cursor="Read<br>More">
-	<figure class="bli-image">
-	<div class="anim-zoomin-wrap" style="overflow: hidden;"><img src="/images/ph-ario.jpg"class="tt-lazy anim-zoomin" alt="Image" style=""></div>
-	</figure>
-	</a>
-	<div class="bli-info">
-	<div class="bli-categories">
-	<a href="blog-archive.html">ar.io</a>
-	</div>
-	<h2 class="bli-title"><a href="blog-post-classic-sidebar.html">Ecosystem Map</a></h2>
-	<div class="bli-meta">
-	<span class="published">Updated: May 26, 2022</span>
-	<span class="posted-by">- by <a href="blog-archive.html" title="View all posts by Sparkles">Sparkles</a></span>
-	</div>
-	<div class="bli-desc">
-	Phil is here, the Weave is with him. There is a 100% chance of permanent plans.
-	</div>
-	<a href="blog-post.html" class="bli-read-more tt-btn tt-btn-primary" style="background:#000 !important;">
-	<div data-hover="Read More">Read More</div>
-	<span class="tt-btn-icon"><i class="fas fa-arrow-right"></i></span>
-	</a>
-	</div>
-	</article>
-	<article class="blog-list-item">
-	<a href="blog-post-classic-sidebar.html" class="bli-image-wrap not-hide-cursor" data-cursor="Read<br>More">
-	<figure class="bli-image">
-	<div class="anim-zoomin-wrap" style="overflow: hidden;"><img src="/images/ph-ario.jpg"class="tt-lazy anim-zoomin" alt="Image" style=""></div>
-	</figure>
-	</a>
-	<div class="bli-info">
-	<div class="bli-categories">
-	<a href="blog-archive.html">ArNS</a>
-	</div>
-	<h2 class="bli-title"><a href="blog-post-classic-sidebar.html">A complete guide to ANTs, Names, and Undernames</a></h2>
-	<div class="bli-meta">
-	<span class="published">Updated: May 23, 2022</span>
-	<span class="posted-by">- by <a href="blog-archive.html" title="View all posts by Sparkles">Sparkles</a></span>
-	</div>
-	<div class="bli-desc"> 
-	Phil is here, the Weave is with him. There is a 100% chance of permanent plans.
-	</div>
-	<a href="blog-post.html" class="bli-read-more tt-btn tt-btn-primary" style="background:#000 !important;">
-	<div data-hover="Read More">Read More</div>
-	<span class="tt-btn-icon"><i class="fas fa-arrow-right"></i></span>
-	</a>
-	</div>
-	</article>
-	<article class="blog-list-item">
-	<a href="blog-post-classic-sidebar.html" class="bli-image-wrap not-hide-cursor" data-cursor="Read<br>More">
-	<figure class="bli-image">
-	<div class="anim-zoomin-wrap" style="overflow: hidden;"><img src="/images/ph-ario.jpg"class="tt-lazy anim-zoomin" alt="Image" style=""></div>
-	</figure>
-	</a>
-	<div class="bli-info">
-	<div class="bli-categories">
-	<a href="blog-archive.html">Staking</a>
-	</div>
-	<h2 class="bli-title"><a href="blog-post-classic-sidebar.html">Complete guide to Staking</a></h2>
-	<div class="bli-meta">
-	<span class="published">Updated: May 21, 2022</span>
-	<span class="posted-by">- by <a href="blog-archive.html" title="View all posts by Sparkles">Sparkles</a></span>
-	</div>
-	<div class="bli-desc"> 
-	Phil is here, the Weave is with him. There is a 100% chance of permanent plans.
-	</div>
-	<a href="blog-post.html" class="bli-read-more tt-btn tt-btn-primary" style="background:#000 !important;">
-	<div data-hover="Read More">Read More</div>
-	<span class="tt-btn-icon"><i class="fas fa-arrow-right"></i></span>
-	</a>
-	</div>
-	</article>
-	<article class="blog-list-item">
-	<a href="blog-post-classic-sidebar.html" class="bli-image-wrap not-hide-cursor" data-cursor="Read<br>More">
-	<figure class="bli-image">
-	<div class="anim-zoomin-wrap" style="overflow: hidden;"><img src="/images/ph-ario.jpg"class="tt-lazy anim-zoomin" alt="Image" style=""></div>
-	</figure>
-	</a>
-	<div class="bli-info">
-	<div class="bli-categories">
-	<a href="blog-archive.html">ArDrive CLI</a>
-	</div>
-	<h2 class="bli-title"><a href="blog-post-classic-sidebar.html">Using the CLI</a></h2>
-	<div class="bli-meta">
-	<span class="published">Updated: May 19, 2022</span>
-	<span class="posted-by">- by <a href="blog-archive.html" title="View all posts by Sparkles">ANThony</a></span>
-	</div>
-	<div class="bli-desc">
-	Phil is here, the Weave is with him. There is a 100% chance of permanent plans.
-	</div>
-	<a href="blog-post.html" class="bli-read-more tt-btn tt-btn-primary" style="background:#000 !important;">
-	<div data-hover="Read More">Read More</div>
-	<span class="tt-btn-icon"><i class="fas fa-arrow-right"></i></span>
-	</a>
-	</div>
-	</article>
-	</div>
-	</div>
-</div>
-</div>
+<head>
+	<!-- Title -->
+	<title>Docs | ar.io</title>
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<meta name="ar.io" content="A global network, protocol, and currency that enables the permaweb.">
+	<meta property="og:image" content="https://res.cloudinary.com/donw16xff/image/upload/v1666927508/k.jpg">
+	<meta property="og:url" content="https://res.cloudinary.com/donw16xff/image/upload/v1666927508/k.jpg">
+	<!-- LinkedIn -->
+	<meta property="og:title" content="ar.io">
+	<meta property="og:image" content="https://res.cloudinary.com/donw16xff/image/upload/v1666927508/k.jpg">
+	<meta property="og:description" content="A global network, protocol, and currency that enables the permaweb.">
+	<meta property="og:url" content="https://ar.io/">
+	<!-- Twitter -->
+	<meta name="twitter:title" content="ar.io">
+	<meta name="twitter:description" content="A global network, protocol, and currency that enables the permaweb.">
+	<meta name="twitter:image" content=" https://res.cloudinary.com/donw16xff/image/upload/v1666927508/k.jpg">
+	<meta name="twitter:card" content="summary_large_image">
+	<!-- Mobile Meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Favicon (http://www.favicon-generator.org/) -->
+	<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+	<link rel="icon" href="../favicon.ico" type="image/x-icon">
+	<!-- Google fonts (https://www.google.com/fonts) -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+	<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
+	<!-- Libs and Plugins CSS -->
+	<link rel="stylesheet" href="../assets/vendor/normalize/normalize.min.css">
+	<link rel="stylesheet" href="../assets/vendor/fontawesome/css/fontawesome-all.min.css">
+	<link rel="stylesheet" href="../assets/vendor/swiper/css/swiper-bundle.min.css">
+	<link rel="stylesheet" href="../assets/vendor/lightgallery/css/lightgallery.min.css">
+	<!-- Master CSS -->
+	<link rel="stylesheet" href="../assets/css/helper.css">
+	<link rel="stylesheet" href="../assets/css/theme.css">
+	<!-- <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/8075f6a7bf5448456087af1e0/1c511e1dbbf76bcb1b994b19a.js");</script> -->
+	<!-- LANGUAGE WIDGET -->
+	<!-- <script type="text/javascript" src="https://cdn.weglot.com/weglot.min.js"></script>
+	<script>
+	Weglot.initialize({
+	api_key: 'wg_148c257c536db023455438d28d94c4589'
+});
+</script> -->
+	<!-- <script src="https://www.twilik.com/assets/retainable/rss-embed/retainable-rss-embed.js"></script> -->
+	<script defer="" data-domain="ar.io" src="https://plausible.io/js/plausible.js"></script>
+<style id="smooth-scrollbar-style">
+[data-scrollbar] {
+  display: block;
+  position: relative;
+}
+.scroll-content {
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
+.scrollbar-track {
+  position: absolute;
+  opacity: 0;
+  z-index: 1;
+  background: rgba(222, 222, 222, .75);
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-transition: opacity 0.5s 0.5s ease-out;
+          transition: opacity 0.5s 0.5s ease-out;
+}
+.scrollbar-track.show,
+.scrollbar-track:hover {
+  opacity: 1;
+  -webkit-transition-delay: 0s;
+          transition-delay: 0s;
+}
+.scrollbar-track-x {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 8px;
+}
+.scrollbar-track-y {
+  top: 0;
+  right: 0;
+  width: 8px;
+  height: 100%;
+}
+.scrollbar-thumb {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 8px;
+  height: 8px;
+  background: rgba(0, 0, 0, .5);
+  border-radius: 4px;
+}
+</style><style>/* ! tailwindcss v3.2.6 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;font-weight:inherit;line-height:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]{display:none}*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::-webkit-backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border-width:0}.absolute{position:absolute}.z-10{z-index:10}.mx-auto{margin-left:auto;margin-right:auto}.ml-1{margin-left:0.25rem}.ml-2{margin-left:0.5rem}.mr-2{margin-right:0.5rem}.mr-3{margin-right:0.75rem}.mr-4{margin-right:1rem}.mt-4{margin-top:1rem}.flex{display:flex}.inline-flex{display:inline-flex}.grid{display:grid}.hidden{display:none}.h-10{height:2.5rem}.h-4{height:1rem}.h-6{height:1.5rem}.w-4{width:1rem}.w-6{width:1.5rem}.w-auto{width:auto}.w-full{width:100%}.grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.items-center{align-items:center}.justify-between{justify-content:space-between}.space-y-4 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem * var(--tw-space-y-reverse))}.rounded-lg{border-radius:0.5rem}.border{border-width:1px}.border-b{border-bottom-width:1px}.border-gray-100{--tw-border-opacity:1;border-color:rgb(243 244 246 / var(--tw-border-opacity))}.border-gray-200{--tw-border-opacity:1;border-color:rgb(229 231 235 / var(--tw-border-opacity))}.border-gray-800{--tw-border-opacity:1;border-color:rgb(31 41 55 / var(--tw-border-opacity))}.bg-transparent{background-color:transparent}.p-2{padding:0.5rem}.p-4{padding:1rem}.px-2{padding-left:0.5rem;padding-right:0.5rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-8{padding-top:2rem;padding-bottom:2rem}.pb-0{padding-bottom:0px}.pl-3{padding-left:0.75rem}.pr-4{padding-right:1rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.font-medium{font-weight:500}.text-gray-400{--tw-text-opacity:1;color:rgb(156 163 175 / var(--tw-text-opacity))}.text-gray-500{--tw-text-opacity:1;color:rgb(107 114 128 / var(--tw-text-opacity))}.text-gray-700{--tw-text-opacity:1;color:rgb(55 65 81 / var(--tw-text-opacity))}.text-gray-900{--tw-text-opacity:1;color:rgb(17 24 39 / var(--tw-text-opacity))}.shadow-md{--tw-shadow:0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.hover\:bg-gray-50:hover{--tw-bg-opacity:1;background-color:rgb(249 250 251 / var(--tw-bg-opacity))}.hover\:bg-red-100:hover{--tw-bg-opacity:1;background-color:rgb(254 226 226 / var(--tw-bg-opacity))}.hover\:text-white:hover{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}.focus\:outline-none:focus{outline:2px solid transparent;outline-offset:2px}.focus\:ring-2:focus{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000)}.focus\:ring-gray-200:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(229 231 235 / var(--tw-ring-opacity))}.group:hover .group-hover\:text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}@media (prefers-color-scheme: dark){.dark\:border-gray-700{--tw-border-opacity:1;border-color:rgb(55 65 81 / var(--tw-border-opacity))}.dark\:text-gray-300{--tw-text-opacity:1;color:rgb(209 213 219 / var(--tw-text-opacity))}.dark\:text-gray-400{--tw-text-opacity:1;color:rgb(156 163 175 / var(--tw-text-opacity))}.dark\:text-gray-500{--tw-text-opacity:1;color:rgb(107 114 128 / var(--tw-text-opacity))}.dark\:text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}.dark\:hover\:bg-gray-700:hover{--tw-bg-opacity:1;background-color:rgb(55 65 81 / var(--tw-bg-opacity))}.dark\:hover\:text-white:hover{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}.dark\:focus\:ring-gray-600:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(75 85 99 / var(--tw-ring-opacity))}.group:hover .dark\:group-hover\:text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}}@media (min-width: 640px){.sm\:mr-6{margin-right:1.5rem}.sm\:h-9{height:2.25rem}}@media (min-width: 768px){.md\:order-1{order:1}.md\:order-2{order:2}.md\:mt-0{margin-top:0px}.md\:flex{display:flex}.md\:hidden{display:none}.md\:w-auto{width:auto}.md\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}.md\:flex-row{flex-direction:row}.md\:space-x-8 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(2rem * var(--tw-space-x-reverse));margin-left:calc(2rem * calc(1 - var(--tw-space-x-reverse)))}.md\:border-0{border-width:0px}.md\:p-0{padding:0px}.md\:px-12{padding-left:3rem;padding-right:3rem}.md\:pb-4{padding-bottom:1rem}.md\:hover\:bg-transparent:hover{background-color:transparent}.md\:hover\:text-blue-600:hover{--tw-text-opacity:1;color:rgb(37 99 235 / var(--tw-text-opacity))}.md\:hover\:text-white:hover{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}@media (prefers-color-scheme: dark){.md\:dark\:hover\:bg-transparent:hover{background-color:transparent}.md\:dark\:hover\:text-white:hover{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}}}@media (min-width: 1024px){.lg\:px-12{padding-left:3rem;padding-right:3rem}}@media (min-width: 1280px){.xl\:px-12{padding-left:3rem;padding-right:3rem}}</style><link rel="stylesheet" href="https://embed.typeform.com/next/css/slider.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"></head>
+	<!-- ===========
+	///// Body /////
+	================
+	* Use class "tt-boxed" to enable page boxed layout globally (affects all elements containing class "tt-wrap").
+	* Use class "tt-smooth-scroll" to enable page smooth scrolling.
+	* Use class "tt-transition" to enable page transitions.
+	* Use class "tt-magic-cursor" to enable magic cursor.
+	* Note: there may be classes that are specific to this page only!
+	-->
+	<body id="body" class="tt-transition tt-boxed tt-smooth-scroll tt-magic-cursor page-header-on tt-sidebar-on tt-ph-visible" style="">
+		<!-- *************************************
+		*********** Begin body inner *************
+		************************************** -->
+		<main id="body-inner"><div class="tt-style-switch"><div class="tt-stsw-dark"><i class="far fa-moon"></i></div><div class="tt-stsw-light"><i class="fas fa-sun"></i></div></div>
+			<div id="page-transition" style="opacity: 0; visibility: hidden;">
+				<div class="ptr-overlay" style="transform-origin: 50% 0%; transform: scale(1, 0);"></div>
+				<div class="ptr-preloader" style="opacity: 0; visibility: hidden;">
+					<div class="ptr-prel-content">
+						<img src="/images/logo-party.gif" class="ptr-prel-image tt-logo-light" alt="Logo">
+					</div> <!-- /.ptr-prel-content -->
+				</div> <!-- /.ptr-preloader -->
+			</div>
+			<!-- Begin magic cursor
+			======================== -->
+			<div id="magic-cursor" style="opacity: 0; visibility: hidden;">
+				<div id="ball" style="opacity: 0.5; border-width: 2px; height: 36px; width: 36px; transform: translate(-50%, -50%) translate(1180px, 153px);" class=""></div>
+			</div>
+			<!-- End magic cursor -->
+			<!-- *****************************************
+			*********** Begin scroll container ***********
+			****************************************** -->
+			<div id="scroll-container" data-scrollbar="true" tabindex="-1" style="overflow: hidden; outline: none;"><div class="scroll-content" style="transform: translate3d(0px, 0px, 0px);">
+				<!-- ===================
+				///// Begin header /////
+				========================
+				* Use class "tt-header-fixed" to set header to fixed position.
+				-->
+				<nav class="border-gray-200 px-2 md:px-12 lg:px-12 xl:px-12 py-8" style=" background: #121212; ">
+					<div class="flex flex-wrap justify-between items-center mx-auto ">
+						<a href="../index.html" class="flex items-center">
+							<div class="magnetic-wrap"><img src="/images/elephant-light.png" class="mr-3 h-10 sm:h-9 sm:mr-6 tt-logo-light magnetic-item" alt=""></div>
+						</a>
+						<div class="flex items-center md:order-2">
+							<a href="#" target="_blank" class="tt-btn tt-btn-primary-start margin-top-20 anim-fadeinup" rel="noopener" style="">
+								<div data-hover="Start">Start</div>
+								<span class="tt-btn-icon"><i class="fas fa-arrow-right"></i></span>
+							</a>
+							<button data-collapse-toggle="mega-menu-icons" type="button" class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg md:hidden hover:bg-red-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="mega-menu-icons" aria-expanded="false">
+								<span class="sr-only">Open main menu</span>
+								<svg aria-hidden="true" class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+							</button>
+						</div>
+						<div id="mega-menu-icons" class="hidden justify-between items-center w-full md:flex md:w-auto md:order-1">
+							<ul class="flex flex-col mt-4 text-sm font-medium md:flex-row md:space-x-8 md:mt-0">
+								<li>
+									<button id="mega-menu-icons-dropdown-button" data-dropdown-toggle="mega-menu-icons-dropdown-learn" class="flex justify-between items-center mr-4 py-2 pr-4 pl-3 w-full font-large text-gray-700 border-b border-gray-100 md:w-auto hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0 dark:text-gray-300 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 ">
+										<img src="/images/strips.png" width="25" class="mr-2" alt="">LEARN
+									</button>
+									<div id="mega-menu-icons-dropdown-learn" class="grid hidden  absolute z-10 grid-cols-2 w-auto text-sm bg-transparent  border border-gray-800 shadow-md dark:border-gray-700 md:grid-cols-3 " data-popper-placement="bottom" style="position: absolute; inset: 0px auto auto 0px; background: rgb(18, 18, 18); margin: 0px; transform: translate(279px, 97px);" data-popper-reference-hidden="" data-popper-escaped="">
+										<div class="p-4 pb-0 text-gray-900 md:pb-4 dark:text-white">
+											<strong>About ar.io</strong>
+											<ul class="space-y-4" aria-labelledby="mega-menu-icons-dropdown-button">
+												<br>
+												<li>
+													<a href="#" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-white dark:hover:text-white group">
+														<span class="sr-only">What is ar.io?</span>
+														<svg class="mr-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"></svg>
+														What is ar.io?
+													</a>
+												</li>
+												<li>
+													<a href="#" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-white dark:hover:text-white group">
+														<span class="sr-only">Why ar.io?</span>
+														<svg class="mr-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" focusable="false" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"></path></svg>
+														Why ar.io?
+													</a>
+												</li>
+											</ul>
+										</div>
+										<div class="p-4 pb-0 text-gray-900 md:pb-4 dark:text-white">
+											<strong>About Arweave</strong>
+											<ul class="space-y-4">
+												<br>
+												<li>
+													<a href="#" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-white dark:hover:text-white group">
+														<span class="sr-only">What is Arweave?</span>
+														<svg class="mr-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"></svg>
+														What is Arweave?
+													</a>
+												</li>
+												<li>
+													<a href="#" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-white dark:hover:text-white group">
+														<span class="sr-only">What is the permaweb?</span>
+														<svg class="mr-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"></svg>
+														What is the permaweb?
+													</a>
+												</li>
+												<li>
+													<a href="#" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-white dark:hover:text-white group">
+														<span class="sr-only">What is a gateway?</span>
+														<svg class="mr-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10.894 2.553a1 1 0 00-1.788 0l-7 14a1 1 0 001.169 1.409l5-1.429A1 1 0 009 15.571V11a1 1 0 112 0v4.571a1 1 0 00.725.962l5 1.428a1 1 0 001.17-1.408l-7-14z"></path></svg>
+														What is a gateway?
+													</a>
+												</li>
+												<li>
+													<a href="#" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-white dark:hover:text-white group">
+														<span class="sr-only">The problem of long-term data storage</span>
+														<svg class="mr-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"></svg>
+														The problem of long-term data storage
+													</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</li>
+								<li>
+									<button id="mega-menu-icons-dropdown-button-2" data-dropdown-toggle="mega-menu-icons-dropdown-use" class="flex justify-between items-center mr-4 py-2 pr-4 pl-3 w-full font-large text-gray-700 border-b border-gray-100 md:w-auto hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-white md:p-0 dark:text-gray-300 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 ">
+										<img src="/images/swipe.png" width="25" class="mr-2" alt="">USE
+									</button>
+									<div id="mega-menu-icons-dropdown-use" class="grid hidden  absolute z-10 grid-cols-2 w-auto text-sm bg-transparent  border border-gray-800 shadow-md dark:border-gray-700 md:grid-cols-3 " data-popper-placement="bottom" style="position: absolute; inset: 0px auto auto 0px; background: rgb(18, 18, 18); margin: 0px; transform: translate(397px, 97px);" data-popper-reference-hidden="" data-popper-escaped="">
+										<div class="p-4 pb-0 text-gray-900 md:pb-4 dark:text-white">
+											<strong>Products</strong>
+											<ul class="space-y-4" aria-labelledby="mega-menu-icons-dropdown-button">
+												<br>
+												<li>
+													<a href="#" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-white dark:hover:text-white group">
+														<span class="sr-only">ArDrive</span>
+														<svg class="mr-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" focusable="false" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"></svg>
+														ArDrive
+														<svg class="ml-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"></svg>
+													</a>
+												</li>
+												<li>
+													<a href="#" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-white dark:hover:text-white group">
+														<span class="sr-only">ArNS</span>
+														<svg class="mr-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"></svg>
+														ArNS (Beta)
+														<svg class="ml-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"></svg>
+													</a>
+												</li>
+											</ul>
+										</div>
+										<div class="p-4 pb-0 text-gray-900 md:pb-4 dark:text-white">
+											<ul class="space-y-4">
+												<li>
+													<a href="#" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-white dark:hover:text-white group">
+														<span class="sr-only">ar.io Gateways</span>
+														<svg class="mr-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"></svg>
+														ar.io Gateways
+													</a>
+												</li>
+											</ul>
+										</div>
+										<div class="p-4 pb-0 text-gray-900 md:pb-4 dark:text-white">
+											<ul class="space-y-4">
+												<li>
+													<a href="#" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-white dark:hover:text-white group">
+														<span class="sr-only">Wallet</span>
+														<svg class="mr-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"></svg>
+														Wallet
+													</a>
+												</li>
+											</ul>
+										</div>
+										<div class="p-4 text-gray-900 dark:text-white">
+											<ul class="space-y-4">
+												<li>
+													<a href="#" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-white dark:hover:text-white group">
+														<span class="sr-only">Pricing Calculator</span>
+														<svg class="mr-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"></svg>
+														Pricing Calculator
+														<svg class="ml-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"></svg>
+													</a>
+												</li>
+												<li>
+													<a href="#" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-white dark:hover:text-white group">
+														<span class="sr-only">Viewblock</span>
+														<svg class="mr-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z"></path></svg>
+														Viewblock
+														<svg class="ml-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"></svg>
+													</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</li>
+								<li>
+									<button id="mega-menu-icons-dropdown-button" data-dropdown-toggle="mega-menu-icons-dropdown-develop" class="flex justify-between items-center mr-4 py-2 pr-4 pl-3 w-full font-large text-gray-700 border-b border-gray-100 md:w-auto hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-white md:p-0 dark:text-gray-300 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 ">
+										<img src="/images/triangle.png" width="25" class="mr-2" alt="">DEVELOP
+									</button>
+									<div id="mega-menu-icons-dropdown-develop" class="grid hidden  absolute z-10 grid-cols-2 w-auto text-sm bg-transparent  border border-gray-800 shadow-md dark:border-gray-700 md:grid-cols-3 " data-popper-placement="bottom" style="position: absolute; inset: 0px auto auto 0px; background: rgb(18, 18, 18); margin: 0px; transform: translate(524px, 97px);" data-popper-reference-hidden="" data-popper-escaped="">
+										<div class="p-4 pb-0 text-gray-900 md:pb-4 dark:text-white">
+											<strong>Developer Tools</strong>
+											<ul class="space-y-4" aria-labelledby="mega-menu-icons-dropdown-button">
+												<br>
+												<li>
+													<a href="#" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-white dark:hover:text-white group">
+														<span class="sr-only">CLI</span>
+														<svg class="mr-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"></svg>
+														CLI
+														<svg class="ml-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"></svg>
+													</a>
+												</li>
+												<li>
+													<a href="#" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-white dark:hover:text-white group">
+														<span class="sr-only">ArDrive Core-JS</span>
+														<svg class="mr-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12.316 3.051a1 1 0 01.633 1.265l-4 12a1 1 0 11-1.898-.632l4-12a1 1 0 011.265-.633zM5.707 6.293a1 1 0 010 1.414L3.414 10l2.293 2.293a1 1 0 11-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0zm8.586 0a1 1 0 011.414 0l3 3a1 1 0 010 1.414l-3 3a1 1 0 11-1.414-1.414L16.586 10l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+														ArDrive Core-JS
+														<svg class="ml-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"></svg>
+													</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</li>
+								<li>
+									<button id="mega-menu-icons-dropdown-button" data-dropdown-toggle="mega-menu-icons-dropdown-engage" class="flex justify-between items-center mr-4 py-2 pr-4 pl-3 w-full font-large text-gray-700 border-b border-gray-100 md:w-auto hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-white md:p-0 dark:text-gray-300 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 ">
+										<img src="/images/plate.png" width="25" class="mr-2" alt="">ENGAGE
+									</button>
+									<div id="mega-menu-icons-dropdown-engage" class="grid hidden  absolute z-10 grid-cols-2 w-auto text-sm bg-transparent  border border-gray-800 shadow-md dark:border-gray-700 md:grid-cols-3 " data-popper-placement="bottom" style="position: absolute; inset: 0px auto auto 0px; background: rgb(18, 18, 18); margin: 0px; transform: translate(665px, 97px);" data-popper-reference-hidden="" data-popper-escaped="">
+										<div class="p-4 pb-0 text-gray-900 md:pb-4 dark:text-white">
+											<strong>Ecosystem</strong>
+											<ul class="space-y-4" aria-labelledby="mega-menu-icons-dropdown-button">
+												<br>
+												<li>
+													<a href="#" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-white dark:hover:text-white group">
+														<span class="sr-only">Newsletter</span>
+														<svg class="mr-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M2 5a2 2 0 012-2h8a2 2 0 012 2v10a2 2 0 002 2H4a2 2 0 01-2-2V5zm3 1h6v4H5V6zm6 6H5v2h6v-2z" clip-rule="evenodd"></path><path d="M15 7h1a2 2 0 012 2v5.5a1.5 1.5 0 01-3 0V7z"></path></svg>
+														Newsletter
+													</a>
+												</li>
+												<li>
+													<a href="#" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-white dark:hover:text-white group">
+														<span class="sr-only">Blog</span>
+														<svg class="mr-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" focusable="false" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"></svg>
+														Blog
+													</a>
+												</li>
+												<li>
+													<a href="#" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-white dark:hover:text-white group">
+														<span class="sr-only">Socials</span>
+														<svg class="mr-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" focusable="false" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"></svg>
+														Socials
+													</a>
+												</li>
+											</ul>
+										</div>
+										<div class="p-4 pb-0 text-gray-900 md:pb-4 dark:text-white">
+											<ul class="space-y-4" aria-labelledby="mega-menu-icons-dropdown-button">
+												<li>
+													<a href="#" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-white dark:hover:text-white group">
+														<span class="sr-only">CCC</span>
+														<svg class="mr-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" focusable="false" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"></path></svg>
+														CCC
+													</a>
+												</li>
+											</ul>
+										</div>
+										<div class="p-4 pb-0 text-gray-900 md:pb-4 dark:text-white">
+											<ul class="space-y-4" aria-labelledby="mega-menu-icons-dropdown-button">
+												<li>
+													<a href="#" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-white dark:hover:text-white group">
+														<span class="sr-only">The Arcast</span>
+														<svg class="mr-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" focusable="false" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"></svg>
+														The Arcast
+														<svg class="ml-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"></svg>
+													</a>
+												</li>
+											</ul>
+										</div>
+										<div class="p-4 pb-0 text-gray-900 md:pb-4 dark:text-white">
+											<ul class="space-y-4" aria-labelledby="mega-menu-icons-dropdown-button">
+												<li>
+													<a href="#" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-white dark:hover:text-white group">
+														<span class="sr-only">Merch Store</span>
+														<svg class="mr-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" focusable="false" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"></svg>
+														Merch Store
+														<svg class="ml-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"></svg>
+													</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</li>
+								<li>
+									<button id="mega-menu-icons-dropdown-button" data-dropdown-toggle="mega-menu-icons-dropdown-about" class="flex justify-between items-center mr-4 py-2 pr-4 pl-3 w-full font-large text-gray-700 border-b border-gray-100 md:w-auto hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-white md:p-0 dark:text-gray-300 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 ">
+										<img src="/images/circle.png" width="25" class="mr-2" alt="">ABOUT
+									</button>
+									<div id="mega-menu-icons-dropdown-about" class=" hidden  absolute z-10 grid-cols-2 w-auto text-sm bg-transparent  border border-gray-800 shadow-md dark:border-gray-700 md:grid-cols-3 " data-popper-placement="bottom" style="position: absolute; inset: 0px auto auto 0px; background: rgb(18, 18, 18); margin: 0px; transform: translate(798px, 97px);" data-popper-reference-hidden="" data-popper-escaped="">
+										<div class="p-4 pb-0 text-gray-900 md:pb-4 dark:text-white">
+										<strong>Follow along</strong>
+											<ul class="space-y-4" aria-labelledby="mega-menu-icons-dropdown-button">
+												<br>
+												<li>
+													<a href="#" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-white dark:hover:text-white group">
+														<span class="sr-only">The Story</span>
+														<svg class="mr-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" focusable="false" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"></svg>
+														The Story
+													</a>
+												</li>
+											</ul>
+										</div>
+										<div class="p-4 pb-0 text-gray-900 md:pb-4 dark:text-white">
+											<ul class="space-y-4">
+												<li>
+													<a href="#" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-white dark:hover:text-white group">
+														<span class="sr-only">The Foundation</span>
+														<svg class="mr-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"></svg>
+														The Foundation
+													</a>
+												</li>
+											</ul>
+										</div>
+										<div class="p-4 text-gray-900 dark:text-white">
+											<ul class="space-y-4">
+												<li>
+													<a href="#" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-white dark:hover:text-white group">
+														<span class="sr-only">Press</span>
+														<svg class="mr-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" focusable="false" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"></svg>
+														Press
+													</a>
+												</li>
+											</ul>
+										</div>
+										<div class="p-4 text-gray-900 dark:text-white">
+											<ul class="space-y-4">
+												<li>
+													<a href="#" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-white dark:hover:text-white group">
+														<span class="sr-only">Contact</span>
+														<svg class="mr-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"></svg>
+														Contact
+													</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+				<!-- *************************************
+				*********** Begin content wrap ***********
+				************************************** -->
+				<div id="content-wrap">
+					<!-- ========================
+					///// Begin page header /////
+					=============================
+					* Use class "ph-full" to enable fullscreen size (no effect on smaller screens!).
+					* Use class "ph-cap-sm", "ph-cap-lg", "ph-cap-xlg" or "ph-cap-xxlg" to set caption size (no class = default size).
+					* Use class "ph-center" to enable content center position.
+					* Use class "ph-image-cropped" to crop image (if image is used). It uses fixed image dimensions (no effect with class "ph-bg-image"!).
+					* Use class "ph-bg-image" to enable page header background image. Note: "ph-caption-title-ghost" will be disabled if you enable this option!
+					* Use class "ph-bg-image-is-light" if needed, it makes the elements dark and more visible if you use a very light background image (effect only with class "ph-bg-image").
+					* Use class "ph-image-cover-*" to set image overlay opacity. For example "ph-image-cover-2" or "ph-image-cover-2-5" (up to "ph-image-cover-9-5").
+					* Use class "ph-content-parallax" to enable content parallax.
+					* Use class "ph-stroke" to enable caption title stroke style.
+					* Use class "ph-ghost-scroll" to enable the scroll effect to caption title ghost (no effect with class "ph-center"!).
+					-->
+					<div id="page-header" class="ph-cap-lg ph-ghost-scroll ph-image-cropped ph-content-parallax">
+						<div class="page-header-inner tt-wrap">
+							<!-- Begin page header image
+							============================= -->
+							<!-- <div class="ph-image">
+								<div class="ph-image-inner">
+									<img src="assets/img/page-header/ph-3.jpg" alt="Image">
+								</div>
+							</div> -->
+							<!-- End page header image -->
+							<!-- Begin page header caption
+							===============================
+							Use class "max-width-*" to set caption max width if needed. For example "max-width-1000". More info about helper classes can be found in the file "helper.css".
+							-->
+							<div class="ph-caption max-width-1000">
+							</div>
+							<!-- End page header caption -->
+						</div> <!-- /.page-header-inner -->
+						<!-- Begin scroll down (you can change "data-offset" to set scroll top offset)
+						======================= -->
+						<div class="tt-scroll-down" style="opacity: 1; visibility: inherit;">
+							<a href="#page-content" class="tt-sd-inner ph-appear" data-offset="0" style="">
+								<div class="tt-sd-arrow">
+									<div class="tt-sd-arrow-inner"></div>
+								</div>
+								<div class="tt-sd-text">Scroll</div>
+							</a>
+						</div>
+						<!-- End scroll down -->
+					</div>
+					<!-- End page header -->
+					<!-- *************************************
+					*********** Begin page content ***********
+					************************************** -->
+					<div id="page-content" style="">
+						<!-- =======================
+						///// Begin tt-section /////
+						============================
+						* You can use padding classes if needed. For example "padding-top-xlg-150", "padding-bottom-xlg-150", "no-padding-top", "no-padding-bottom", etc. Note that each situation may be different and each section may need different classes according to your needs. More info about helper classes can be found in the file "helper.css".
+						-->
+						<div class="tt-section no-padding-top">
+							<div class="tt-section-inner tt-wrap">
+								<!-- Use class "tt-lg-row-reverse" to align sidebar to the left -->
+								<div class="tt-row tt-lg-row-reverse">
+									<!-- Content column -->
+									<div class="tt-col-lg-8">
+										<!-- Begin blog list
+										=====================
+										* Use class "bli-image-cropped" to grop blog list item images (set fixed height).
+										* Use class "bli-compact" to enable compact blog list style. Note: If "tt-sidebar" is used, then add more width to "tt-section-inner", for example "max-width-1600".
+										-->
+										<div id="blog-list" class="bli-image-cropped">
+											<!-- Begin blog list item
+											========================== -->
+											<article class="blog-list-item">
+												<!-- Begin blog list item image -->
+												<a href="blog-post-classic-sidebar.html" class="bli-image-wrap not-hide-cursor" data-cursor="Read<br>More">
+													<figure class="bli-image">
+														<div class="anim-zoomin-wrap" style="overflow: hidden;"><img src="/images/ph-ario.jpg" class="tt-lazy anim-zoomin" alt="Image" style=""></div>
+													</figure>
+												</a>
+												<!-- End blog list item image -->
+												<!-- Begin blog list item info -->
+												<div class="bli-info">
+													<div class="bli-categories">
+														<a href="blog-archive.html">Gateways</a>
+														<!-- <a href="blog-archive.html">Uncategorized</a> -->
+													</div>
+													<h2 class="bli-title"><a href="blog-post-classic-sidebar.html">Setting up my node</a></h2>
+													<div class="bli-meta">
+														<span class="published">Updated: May 24, 2022</span>
+														<span class="posted-by">- by <a href="blog-archive.html" title="View all posts by Sparkles">Sparkles</a></span>
+													</div>
+													<div class="bli-desc"> <!-- 3 lines is optimal! -->
+														Phil is here, the Weave is with him. There is a 100% chance of permanent plans.
+													</div>
+													<a href="blog-post.html" class="bli-read-more tt-btn tt-btn-primary" style="background:#000 !important;">
+														<div data-hover="Read More">Read More</div>
+														<span class="tt-btn-icon"><i class="fas fa-arrow-right"></i></span>
+													</a>
+												</div>
+												<!-- End blog list item info -->
+											</article>
+											<!-- End blog list item -->
+											<!-- Begin blog list item
+											========================== -->
+											<article class="blog-list-item">
+												<!-- Begin blog list item image -->
+												<a href="blog-post-classic-sidebar.html" class="bli-image-wrap not-hide-cursor" data-cursor="Read<br>More">
+													<figure class="bli-image">
+														<div class="anim-zoomin-wrap" style="overflow: hidden;"><img src="/images/ph-ario.jpg" class="tt-lazy anim-zoomin" alt="Image" style=""></div>
+													</figure>
+												</a>
+												<!-- End blog list item image -->
+												<!-- Begin blog list item info -->
+												<div class="bli-info">
+													<div class="bli-categories">
+														<a href="blog-archive.html">ar.io</a>
+														<!-- <a href="blog-archive.html">Uncategorized</a> -->
+													</div>
+													<h2 class="bli-title"><a href="blog-post-classic-sidebar.html">Ecosystem Map</a></h2>
+													<div class="bli-meta">
+														<span class="published">Updated: May 26, 2022</span>
+														<span class="posted-by">- by <a href="blog-archive.html" title="View all posts by Sparkles">Sparkles</a></span>
+													</div>
+													<div class="bli-desc"> <!-- 3 lines is optimal! -->
+														Phil is here, the Weave is with him. There is a 100% chance of permanent plans.
+													</div>
+													<a href="blog-post.html" class="bli-read-more tt-btn tt-btn-primary" style="background:#000 !important;">
+														<div data-hover="Read More">Read More</div>
+														<span class="tt-btn-icon"><i class="fas fa-arrow-right"></i></span>
+													</a>
+												</div>
+												<!-- End blog list item info -->
+											</article>
+											<!-- End blog list item -->
+											<!-- Begin blog list item
+											========================== -->
+											<article class="blog-list-item">
+												<!-- Begin blog list item image -->
+												<a href="blog-post-classic-sidebar.html" class="bli-image-wrap not-hide-cursor" data-cursor="Read<br>More">
+													<figure class="bli-image">
+														<div class="anim-zoomin-wrap" style="overflow: hidden;"><img src="/images/ph-ario.jpg" class="tt-lazy anim-zoomin" alt="Image" style=""></div>
+													</figure>
+												</a>
+												<!-- End blog list item image -->
+												<!-- Begin blog list item info -->
+												<div class="bli-info">
+													<div class="bli-categories">
+														<a href="blog-archive.html">ArNS</a>
+														<!-- <a href="blog-archive.html">Uncategorized</a> -->
+													</div>
+													<h2 class="bli-title"><a href="blog-post-classic-sidebar.html">A complete guide to ANTs, Names, and Undernames</a></h2>
+													<div class="bli-meta">
+														<span class="published">Updated: May 23, 2022</span>
+														<span class="posted-by">- by <a href="blog-archive.html" title="View all posts by Sparkles">Sparkles</a></span>
+													</div>
+													<div class="bli-desc"> <!-- 3 lines is optimal! -->
+														Phil is here, the Weave is with him. There is a 100% chance of permanent plans.
+													</div>
+													<a href="blog-post.html" class="bli-read-more tt-btn tt-btn-primary" style="background:#000 !important;">
+														<div data-hover="Read More">Read More</div>
+														<span class="tt-btn-icon"><i class="fas fa-arrow-right"></i></span>
+													</a>
+												</div>
+												<!-- End blog list item info -->
+											</article>
+											<!-- End blog list item -->
+											<!-- Begin blog list item
+											========================== -->
+											<article class="blog-list-item">
+												<!-- Begin blog list item image -->
+												<a href="blog-post-classic-sidebar.html" class="bli-image-wrap not-hide-cursor" data-cursor="Read<br>More">
+													<figure class="bli-image">
+														<div class="anim-zoomin-wrap" style="overflow: hidden;"><img src="assets/img/low-qlt-thumb.jpg" data-src="/images/ph-ario.jpg" class="tt-lazy anim-zoomin" alt="Image" style="transform: scale(1.2, 1.2); opacity: 0; visibility: hidden;"></div>
+													</figure>
+												</a>
+												<!-- End blog list item image -->
+												<!-- Begin blog list item info -->
+												<div class="bli-info">
+													<div class="bli-categories">
+														<a href="blog-archive.html">Staking</a>
+														<!-- <a href="blog-archive.html">Uncategorized</a> -->
+													</div>
+													<h2 class="bli-title"><a href="blog-post-classic-sidebar.html">Complete guide to Staking</a></h2>
+													<div class="bli-meta">
+														<span class="published">Updated: May 21, 2022</span>
+														<span class="posted-by">- by <a href="blog-archive.html" title="View all posts by Sparkles">Sparkles</a></span>
+													</div>
+													<div class="bli-desc"> <!-- 3 lines is optimal! -->
+														Phil is here, the Weave is with him. There is a 100% chance of permanent plans.
+													</div>
+													<a href="blog-post.html" class="bli-read-more tt-btn tt-btn-primary" style="background:#000 !important;">
+														<div data-hover="Read More">Read More</div>
+														<span class="tt-btn-icon"><i class="fas fa-arrow-right"></i></span>
+													</a>
+												</div>
+												<!-- End blog list item info -->
+											</article>
+											<!-- End blog list item -->
+											<!-- Begin blog list item
+											========================== -->
+											<article class="blog-list-item">
+												<!-- Begin blog list item image -->
+												<a href="blog-post-classic-sidebar.html" class="bli-image-wrap not-hide-cursor" data-cursor="Read<br>More">
+													<figure class="bli-image">
+														<div class="anim-zoomin-wrap" style="overflow: hidden;"><img src="assets/img/low-qlt-thumb.jpg" data-src="/images/ph-ario.jpg" class="tt-lazy anim-zoomin" alt="Image" style="transform: scale(1.2, 1.2); opacity: 0; visibility: hidden;"></div>
+													</figure>
+												</a>
+												<!-- End blog list item image -->
+												<!-- Begin blog list item info -->
+												<div class="bli-info">
+													<div class="bli-categories">
+														<a href="blog-archive.html">ArDrive CLI</a>
+														<!-- <a href="blog-archive.html">Uncategorized</a> -->
+													</div>
+													<h2 class="bli-title"><a href="blog-post-classic-sidebar.html">Using the CLI</a></h2>
+													<div class="bli-meta">
+														<span class="published">Updated: May 19, 2022</span>
+														<span class="posted-by">- by <a href="blog-archive.html" title="View all posts by Sparkles">ANThony</a></span>
+													</div>
+													<div class="bli-desc"> <!-- 3 lines is optimal! -->
+														Phil is here, the Weave is with him. There is a 100% chance of permanent plans.
+													</div>
+													<a href="blog-post.html" class="bli-read-more tt-btn tt-btn-primary" style="background:#000 !important;">
+														<div data-hover="Read More">Read More</div>
+														<span class="tt-btn-icon"><i class="fas fa-arrow-right"></i></span>
+													</a>
+												</div>
+												<!-- End blog list item info -->
+											</article>
+											<!-- End blog list item -->
+										</div>
+										<!-- End blog list -->
+									</div> <!-- /.col (Content column) -->
+									<!-- Sidebar column -->
+									<div class="tt-col-lg-4">
+										<!-- Begin sidebar (classic)
+										=============================
+										Note: add class "tt-lg-row-reverse" to "tt-row" above to align sidebar to the left.
+										-->
+										<div class="tt-sidebar">
+											<!-- Begin sidebar widget -->
+											<div class="sidebar-widget sidebar-search">
+												<h3 class="sidebar-heading">Search</h3>
+												<!-- Begin form (Note: for design purposes only!)
+												================
+												* Use class "tt-form-filled" or "tt-form-minimal" to change form style.
+												* Use class "tt-form-sm" or "tt-form-lg" to change form size (no class = default size).
+												-->
+												<form>
+													<div class="tt-form-btn-inside">
+														<input class="tt-form-control" type="text" id="search" placeholder="Type something &amp; hit enter" required="">
+														<button type="submit"><i class="fas fa-search"></i></button>
+													</div>
+												</form>
+												<!-- End form -->
+											</div>
+											<!-- End sidebar widget -->
+											<!-- Begin sidebar widget -->
+											<div class="sidebar-widget sidebar-categories">
+												<h3 class="sidebar-heading">Categories</h3>
+												<ul class="list-unstyled">
+													<li><a href="blog-archive.html">ar.io <span title="Entries in this category">26</span></a></li>
+													<li><a href="blog-archive.html">Governance and Staking <span title="Entries in this category">12</span></a></li>
+													<li><a href="blog-archive.html">ArNS <span title="Entries in this category">19</span></a></li>
+													<li><a href="blog-archive.html">Ardrive <span title="Entries in this category">31</span></a></li>
+												</ul>
+											</div>
+											<!-- End sidebar widget -->
+											<!-- Begin sidebar widget -->
+											<div class="sidebar-widget sidebar-post-list">
+												<!-- Can be "Recent Posts" or "Popular Posts" etc. -->
+												<h3 class="sidebar-heading">Getting Set Up</h3>
+												<ul class="list-unstyled">
+													<li>
+														<div class="sidebar-post-data">
+															<h5 class="sidebar-post-title"><a href="blog-post-classic-sidebar.html">Do this</a></h5>
+															<!-- <span class="sidebar-post-author">By: <a href="">Sparkles</a></span> -->
+															<span class="sidebar-post-date">May 14, 2022</span>
+														</div>
+													</li>
+													<li>
+														<div class="sidebar-post-data">
+															<h5 class="sidebar-post-title"><a href="blog-post-classic-sidebar.html">Then this</a></h5>
+															<!-- <span class="sidebar-post-author">By: <a href="">Sparkles</a></span> -->
+															<span class="sidebar-post-date">May 12, 2022</span>
+														</div>
+													</li>
+													<li>
+														<div class="sidebar-post-data">
+															<h5 class="sidebar-post-title"><a href="blog-post-classic-sidebar.html">Run some scripts</a></h5>
+															<!-- <span class="sidebar-post-author">By: <a href="">Henry Harrison</a></span> -->
+															<span class="sidebar-post-date">May 17, 2022</span>
+														</div>
+													</li>
+													<li>
+														<div class="sidebar-post-data">
+															<h5 class="sidebar-post-title"><a href="blog-post-classic-sidebar.html">Do a little sumpin' else</a></h5>
+															<!-- <span class="sidebar-post-author">By: <a href="">Henry Harrison</a></span> -->
+															<span class="sidebar-post-date">May 21, 2022</span>
+														</div>
+													</li>
+												</ul>
+											</div>
+											<!-- End sidebar widget -->
+											<!-- Begin sidebar widget -->
+											<div class="sidebar-widget sidebar-post-list">
+												<!-- Can be "Recent Posts" or "Popular Posts" etc. -->
+												<h3 class="sidebar-heading">For Developers</h3>
+												<ul class="list-unstyled">
+													<li>
+														<div class="sidebar-post-data">
+															<h5 class="sidebar-post-title"><a href="blog-post-classic-sidebar.html">Build with this</a></h5>
+															<!-- <span class="sidebar-post-author">By: <a href="">Sparkles</a></span> -->
+															<span class="sidebar-post-date">May 14, 2022</span>
+														</div>
+													</li>
+													<li>
+														<div class="sidebar-post-data">
+															<h5 class="sidebar-post-title"><a href="blog-post-classic-sidebar.html">Set up these pre-requisites</a></h5>
+															<!-- <span class="sidebar-post-author">By: <a href="">Sparkles</a></span> -->
+															<span class="sidebar-post-date">May 12, 2022</span>
+														</div>
+													</li>
+													<li>
+														<div class="sidebar-post-data">
+															<h5 class="sidebar-post-title"><a href="blog-post-classic-sidebar.html">Update this other package</a></h5>
+															<!-- <span class="sidebar-post-author">By: <a href="">Henry Harrison</a></span> -->
+															<span class="sidebar-post-date">May 17, 2022</span>
+														</div>
+													</li>
+													<li>
+														<div class="sidebar-post-data">
+															<h5 class="sidebar-post-title"><a href="blog-post-classic-sidebar.html">Run something</a></h5>
+															<!-- <span class="sidebar-post-author">By: <a href="">Henry Harrison</a></span> -->
+															<span class="sidebar-post-date">May 21, 2022</span>
+														</div>
+													</li>
+												</ul>
+											</div>
+											<!-- End sidebar widget -->
+											<!-- Begin sidebar widget -->
+											<div class="sidebar-widget sidebar-post-list">
+												<!-- Can be "Recent Posts" or "Popular Posts" etc. -->
+												<h3 class="sidebar-heading">For Gateway Operators</h3>
+												<ul class="list-unstyled">
+													<li>
+														<div class="sidebar-post-data">
+															<h5 class="sidebar-post-title"><a href="blog-post-classic-sidebar.html">Staking</a></h5>
+															<!-- <span class="sidebar-post-author">By: <a href="">Sparkles</a></span> -->
+															<span class="sidebar-post-date">May 14, 2022</span>
+														</div>
+													</li>
+													<li>
+														<div class="sidebar-post-data">
+															<h5 class="sidebar-post-title"><a href="blog-post-classic-sidebar.html">Slashing</a></h5>
+															<!-- <span class="sidebar-post-author">By: <a href="">Sparkles</a></span> -->
+															<span class="sidebar-post-date">May 12, 2022</span>
+														</div>
+													</li>
+													<li>
+														<div class="sidebar-post-data">
+															<h5 class="sidebar-post-title"><a href="blog-post-classic-sidebar.html">Voting</a></h5>
+															<!-- <span class="sidebar-post-author">By: <a href="">Henry Harrison</a></span> -->
+															<span class="sidebar-post-date">May 17, 2022</span>
+														</div>
+													</li>
+													<li>
+														<div class="sidebar-post-data">
+															<h5 class="sidebar-post-title"><a href="blog-post-classic-sidebar.html">Submitting a vote</a></h5>
+															<!-- <span class="sidebar-post-author">By: <a href="">Henry Harrison</a></span> -->
+															<span class="sidebar-post-date">May 21, 2022</span>
+														</div>
+													</li>
+												</ul>
+											</div>
+											<!-- End sidebar widget -->
+											<!-- Begin sidebar widget -->
+											<div class="sidebar-widget sidebar-tags">
+												<h3 class="sidebar-heading">Tags</h3>
+												<div class="sidebar-tags-list">
+													<ul>
+														<li><a href="blog-archive.html">#ar.io</a></li>
+														<li><a href="blog-archive.html">#staking</a></li>
+														<li><a href="blog-archive.html">#ArDrive</a></li>
+														<li><a href="blog-archive.html">#governance</a></li>
+														<li><a href="blog-archive.html">#ArNS</a></li>
+														<li><a href="blog-archive.html">#slashing</a></li>
+														<li><a href="blog-archive.html">#developers</a></li>
+														<li><a href="blog-archive.html">#voting</a></li>
+														<li><a href="blog-archive.html">#CLI</a></li>
+														<li><a href="blog-archive.html">#docs</a></li>
+														<li><a href="blog-archive.html">#users</a></li>
+														<li><a href="blog-archive.html">#leasing</a></li>
+														<li><a href="blog-archive.html">#auctions</a></li>
+														<li><a href="blog-archive.html">#token</a></li>
+													</ul>
+												</div> <!-- /.sidebar-tags-list -->
+											</div>
+											<!-- End sidebar widget -->
+											<!-- Begin sidebar widget -->
+											<div class="sidebar-widget sidebar-meta">
+												<h3 class="sidebar-heading">FAQs</h3>
+												<ul class="list-unstyled">
+													<li><a href="">Wen This?</a></li>
+													<li><a href="">Wen That?</a></li>
+												</ul>
+											</div>
+											<!-- End sidebar widget -->
+										</div>
+										<!-- End sidebar (classic) -->
+									</div> <!-- /.col -->
+								</div> <!-- /.row -->
+								<!-- Begin tt-pagination
+								=========================
+								* Use class "tt-pagin-center" to align center.
+								-->
+								<!-- <div class="tt-pagination anim-fadeinup">
+									<div class="tt-pagin-prev">
+										<a href="" class="tt-pagin-item magnetic-item"><i class="fas fa-chevron-left"></i></a>
+									</div>
+									<div class="tt-pagin-numbers">
+										<a href="#" class="tt-pagin-item magnetic-item active">1</a>
+										<a href="" class="tt-pagin-item magnetic-item">2</a>
+										<a href="" class="tt-pagin-item magnetic-item">3</a>
+										<a href="" class="tt-pagin-item magnetic-item">4</a>
+									</div>
+									<div class="tt-pagin-next">
+										<a href="" class="tt-pagin-item tt-pagin-next magnetic-item"><i class="fas fa-chevron-right"></i></a>
+									</div>
+								</div> -->
+								<!-- End tt-pagination -->
+							</div> <!-- /.tt-section-inner -->
+						</div>
+						<!-- End tt-section -->
+					</div>
+					<!-- End page content -->
+					<footer id="tt-footer" style="">
+						<div class="tt-footer-inner">
+							<!-- Begin footer column
+				========================= -->
+							<div class="footer-col tt-align-center-left">
+								<div class="footer-col-inner">
+									<div class="magnetic-wrap"><div class="magnetic-item subscribe-hide">
+										<button data-tf-slider="bfozRHd0" data-tf-width="550" data-tf-hide-headers="" data-tf-position="left" data-tf-auto-close="1000" data-tf-iframe-props="title=ar.io Site Emails" data-tf-medium="snippet" style="all:unset;display:inline-block;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis; height:50px;cursor:pointer;line-height:50px;text-align:center;margin:0;text-decoration:none;" data-tf-loaded="true">
+											Subscribe <i class="fas fa-paper-plane" style="padding-left: 10px;"></i>
+										</button>
+										<script src="//embed.typeform.com/next/embed.js"></script>
+									</div></div>
+								</div> <!-- /.footer-col-inner -->
+							</div>
+							<!-- Begin footer column -->
+							<!-- Begin footer column
+				========================= -->
+							<div class="footer-col tt-align-center order-m-last">
+								<div class="footer-col-inner">
+									<!-- <div class="tt-copyright text-gray">
+						<a href="https://ardrive.io/tos-and-privacy/" target="_blank" rel="noopener" class="tt-btn tt-btn-link">
+						<span class="tt-btn-icon"><i class="far fa-copyright"></i></span>
+						<div data-hover="T&C">ar.io</div>
+					</a>
+				</div> -->
+									<div class="magnetic-wrap"><div class="magnetic-item">
+										<a href="../terms-and-conditions" target="_blank" rel="noopener" class="tt-btn tt-btn-link">Terms and
+											Conditions</a>
+									</div></div>
+								</div> <!-- /.footer-col-inner -->
+							</div>
+							<!-- Begin footer column -->
+							<!-- Begin footer column
+				========================= -->
+							<div class="footer-col tt-align-center-right">
+								<div class="footer-col-inner">
+									<div class="footer-social">
+										<div class="footer-social-text"><span>Follow</span><i class="fas fa-share-alt"></i></div>
+										<div class="social-buttons">
+											<ul>
+												<li><div class="magnetic-wrap"><a href="https://github.com/ardriveapp" class="magnetic-item not-hide-cursor" target="_blank" rel="noopener"><i class="fab fa-github"></i></a></div></li>
+												<li><div class="magnetic-wrap"><a href="https://discord.gg/HGG52EtTc2" class="magnetic-item not-hide-cursor" target="_blank" rel="noopener"><i class="fab fa-discord"></i></a></div></li>
+												<li><div class="magnetic-wrap"><a href="https://www.instagram.com/ardriveapp/" class="magnetic-item not-hide-cursor" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a></div></li>
+												<li><div class="magnetic-wrap"><a href="https://www.reddit.com/r/ar_io/" class="magnetic-item not-hide-cursor" target="_blank" rel="noopener"><i class="fab fa-reddit"></i></a></div></li>
+												<li><div class="magnetic-wrap"><a href="https://www.tiktok.com/@ardrive.io" class="magnetic-item not-hide-cursor" target="_blank" rel="noopener"><i class="fab fa-tiktok"></i></a></div></li>
+												<li><div class="magnetic-wrap"><a href="https://www.youtube.com/channel/UCL4JlkVcgUjyVz4IlKvbS_g" class="magnetic-item not-hide-cursor" target="_blank" rel="noopener"><i class="fab fa-youtube"></i></a></div></li>
+												<li><div class="magnetic-wrap"><a href="https://www.linkedin.com/company/68614891" class="magnetic-item not-hide-cursor" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a></div></li>
+												<li><div class="magnetic-wrap"><a href="https://twitter.com/ar_io_team" class="magnetic-item not-hide-cursor" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a></div></li>
+											</ul>
+										</div> <!-- /.social-buttons -->
+									</div> <!-- /.footer-social -->
+								</div> <!-- /.footer-col-inner -->
+							</div>
+							<!-- Begin footer column -->
+						</div> <!-- /.tt-section-inner -->
+					</footer>
+					<!-- End tt-footer 1-->
+					<!-- ======================
+				///// Begin tt-footer 2/////
+				=========================== -->
+					<footer id="tt-footer" style="">
+						<div class="tt-footer-inner">
+							<!-- Begin footer column
+				<!-- Begin footer column
+				========================= -->
+							<div class="footer-col tt-align-center order-m-last">
+								<div class="footer-col-inner">
+									<!-- <div class="tt-copyright text-gray">
+						<a href="https://ardrive.io/tos-and-privacy/" target="_blank" rel="noopener" class="tt-btn tt-btn-link">
+						<span class="tt-btn-icon"><i class="far fa-copyright"></i></span>
+						<div data-hover="T&C">ar.io</div>
+					</a>
+				</div> -->
+									<div class="tt-copyright">
+										<div class="tt-btn  tt-btn-link" style="cursor: default !important;"> v. 0.1984</div>
+									</div>
+								</div> <!-- /.footer-col-inner -->
+							</div>
+							<!-- Begin footer column -->
+						</div> <!-- /.tt-section-inner -->
+					</footer>
+					<!-- End tt-footer 2-->
+				</div>
+				<!-- End content wrap -->
+			</div><div class="scrollbar-track scrollbar-track-y show" style="display: block;"><div class="scrollbar-thumb scrollbar-thumb-y" style="height: 178.794px; transform: translate3d(0px, 0px, 0px);"></div></div></div>
+			<!-- End scroll container -->
+		</main>
+		<!-- End body inner -->
+								<!-- ====================
+							///// Scripts below /////
+							===================== -->
+								<!-- Core JS -->
+								<script src="../assets/vendor/jquery/jquery.min.js"></script> <!-- jquery JS (https://jquery.com) -->
+								<!-- Libs and Plugins JS -->
+								<script src="../assets/vendor/gsap/gsap.min.js"></script> <!-- GSAP JS (https://greensock.com/gsap/) -->
+								<script src="../assets/vendor/gsap/ScrollToPlugin.min.js"></script>
+								<!-- GSAP ScrollToPlugin JS (https://greensock.com/scrolltoplugin/) -->
+								<script src="../assets/vendor/gsap/ScrollTrigger.min.js"></script>
+								<!-- GSAP ScrollTrigger JS (https://greensock.com/scrolltrigger/) -->
+								<script src="../assets/vendor/smooth-scrollbar.js"></script>
+								<!-- Smooth Scrollbar JS (https://github.com/idiotWu/smooth-scrollbar/) -->
+								<script src="../assets/vendor/swiper/js/swiper-bundle.min.js"></script> <!-- Swiper JS (https://swiperjs.com/) -->
+								<script src="../assets/vendor/isotope/imagesloaded.pkgd.min.js"></script>
+								<!-- imagesloaded JS (more info: https://imagesloaded.desandro.com/) -->
+								<script src="../assets/vendor/isotope/isotope.pkgd.min.js"></script> <!-- Isotope JS (http://isotope.metafizzy.co) -->
+								<script src="../assets/vendor/isotope/packery-mode.pkgd.min.js"></script>
+								<!-- Isotope Packery Mode JS (https://isotope.metafizzy.co/layout-modes/packery.html) -->
+								<script src="../assets/vendor/lightgallery/js/lightgallery-all.min.js"></script>
+								<!-- lightGallery Plugins JS (http://sachinchoolur.github.io/lightGallery) -->
+								<script src="../assets/vendor/jquery.mousewheel.min.js"></script>
+								<!-- A jQuery plugin that adds cross browser mouse wheel support (https://github.com/jquery/jquery-mousewheel) -->
+								<!-- Template master JS -->
+								<script src="../assets/js/theme.js"></script>
+								<script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
+								<script src="https://cdn.tailwindcss.com"></script>
+</body>
