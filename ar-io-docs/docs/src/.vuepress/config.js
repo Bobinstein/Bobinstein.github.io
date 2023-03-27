@@ -4,7 +4,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: "Ar.io docs",
+  title: "Ar.io Docs",
   base: "/docs/",
 
   /**
@@ -37,32 +37,69 @@ module.exports = {
     docsDir: "",
     editLinkText: "",
     lastUpdated: true,
-    logo: "/images/ArDrive-Logo-Dark.png",
+    logo: "/images/elephant-light.png",
     nav: [
       {
-        text: "Ardrive-cli",
+        text: "LEARN",
         items: [
-          { text: "Docs", link: "/ardrive-cli/" },
-          { text: "GitHub", link: "https://github.com/ardriveapp/ardrive-cli" },
+          { type: "label", text: "About ar.io" },
+          { text: "What is ar.io?", link: "" },
+          { text: "Why ar.io?", link: "" },
+          { type: "label", text: "About Arweave" },
+          { text: "What is Arweave?", link: "" },
+          { text: "What is the permaweb?", link: "" },
+          { text: "What is a gateway?", link: "" },
+          { text: "The problem of long-term data storage" },
         ],
       },
       {
-        text: "Ardrive-core",
+        text: "USE",
         items: [
-          { text: "Docs", link: "/ardrive-core/" },
-          {
-            text: "GitHub",
-            link: "https://github.com/ardriveapp/ardrive-core-js",
-          },
+          { text: "ArDrive", link: "" },
+          { text: "ArNS (Beta)", link: "" },
+          { text: "ar.io Gateways", link: "" },
+          { text: "Wallet", link: "" },
+          { text: "Pricing Calculator", link: "" },
+          { text: "Viewblock", link: "" },
+        ],
+      },
+      {
+        text: "DEVELOP",
+        items: [
+          { text: "CLI", link: "/ardrive-cli/" },
+          { text: "ArDrive Core-JS", link: "/ardrive-core/" },
+        ],
+      },
+      {
+        text: "ENGAGE",
+        items: [
+          { text: "Newsletter", link: "" },
+          { text: "Blog", link: "" },
+          { text: "Socials", link: "" },
+          { text: "CCC", link: "" },
+          { text: "The Arcast", link: "" },
+          { text: "Merch Store", link: "" },
+        ],
+      },
+      {
+        text: "ABOUT",
+        items: [
+          { text: "The Story", link: "" },
+          { text: "The Foundation", link: "" },
+          { text: "Press", link: "" },
+          { text: "Contact", link: "" },
         ],
       },
     ],
-   
   },
 
   /**
    * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
    */
-  plugins: ["@vuepress/plugin-back-to-top", "@vuepress/plugin-medium-zoom", "@goy/svg-icons"],
+  plugins: [
+    "@vuepress/plugin-back-to-top",
+    "@vuepress/plugin-medium-zoom",
+    "@goy/svg-icons",
+  ],
   dest: "../../docs",
 };
