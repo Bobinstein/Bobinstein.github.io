@@ -612,7 +612,7 @@ navbar: false
 												<!-- Begin blog list item image -->
 												<a href="blog-post-classic-sidebar.html" class="bli-image-wrap not-hide-cursor" data-cursor="Read<br>More">
 													<figure class="bli-image">
-														<div class="anim-zoomin-wrap" style="overflow: hidden;"><img src="assets/img/low-qlt-thumb.jpg" data-src="/images/ph-ario.jpg" class="tt-lazy anim-zoomin" alt="Image" style="transform: scale(1.2, 1.2); opacity: 0; visibility: hidden;"></div>
+														<div class="anim-zoomin-wrap" style="overflow: hidden;"><img src="/images/ph-ario.jpg" data-src="/images/ph-ario.jpg" class="tt-lazy anim-zoomin" alt="Image" style="transform: scale(1.2, 1.2); opacity: 0; visibility: hidden;"></div>
 													</figure>
 												</a>
 												<!-- End blog list item image -->
@@ -644,7 +644,7 @@ navbar: false
 												<!-- Begin blog list item image -->
 												<a href="blog-post-classic-sidebar.html" class="bli-image-wrap not-hide-cursor" data-cursor="Read<br>More">
 													<figure class="bli-image">
-														<div class="anim-zoomin-wrap" style="overflow: hidden;"><img src="assets/img/low-qlt-thumb.jpg" data-src="/images/ph-ario.jpg" class="tt-lazy anim-zoomin" alt="Image" style="transform: scale(1.2, 1.2); opacity: 0; visibility: hidden;"></div>
+														<div class="anim-zoomin-wrap" style="overflow: hidden;"><img src="/images/ph-ario.jpg" data-src="/images/ph-ario.jpg" class="tt-lazy anim-zoomin" alt="Image" style="transform: scale(1.2, 1.2); opacity: 0; visibility: hidden;"></div>
 													</figure>
 												</a>
 												<!-- End blog list item image -->
@@ -876,89 +876,7 @@ navbar: false
 						<!-- End tt-section -->
 					</div>
 					<!-- End page content -->
-					<footer id="tt-footer" style="">
-						<div class="tt-footer-inner">
-							<!-- Begin footer column
-				========================= -->
-							<div class="footer-col tt-align-center-left">
-								<div class="footer-col-inner">
-									<div class="magnetic-wrap"><div class="magnetic-item subscribe-hide">
-										<button data-tf-slider="bfozRHd0" data-tf-width="550" data-tf-hide-headers="" data-tf-position="left" data-tf-auto-close="1000" data-tf-iframe-props="title=ar.io Site Emails" data-tf-medium="snippet" style="all:unset;display:inline-block;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis; height:50px;cursor:pointer;line-height:50px;text-align:center;margin:0;text-decoration:none;" data-tf-loaded="true">
-											Subscribe <i class="fas fa-paper-plane" style="padding-left: 10px;"></i>
-										</button>
-										<script src="//embed.typeform.com/next/embed.js"></script>
-									</div></div>
-								</div> <!-- /.footer-col-inner -->
-							</div>
-							<!-- Begin footer column -->
-							<!-- Begin footer column
-				========================= -->
-							<div class="footer-col tt-align-center order-m-last">
-								<div class="footer-col-inner">
-									<!-- <div class="tt-copyright text-gray">
-						<a href="https://ardrive.io/tos-and-privacy/" target="_blank" rel="noopener" class="tt-btn tt-btn-link">
-						<span class="tt-btn-icon"><i class="far fa-copyright"></i></span>
-						<div data-hover="T&C">ar.io</div>
-					</a>
-				</div> -->
-									<div class="magnetic-wrap"><div class="magnetic-item">
-										<a href="../terms-and-conditions" target="_blank" rel="noopener" class="tt-btn tt-btn-link">Terms and
-											Conditions</a>
-									</div></div>
-								</div> <!-- /.footer-col-inner -->
-							</div>
-							<!-- Begin footer column -->
-							<!-- Begin footer column
-				========================= -->
-							<div class="footer-col tt-align-center-right">
-								<div class="footer-col-inner">
-									<div class="footer-social">
-										<div class="footer-social-text"><span>Follow</span><i class="fas fa-share-alt"></i></div>
-										<div class="social-buttons">
-											<ul>
-												<li><div class="magnetic-wrap"><a href="https://github.com/ardriveapp" class="magnetic-item not-hide-cursor" target="_blank" rel="noopener"><i class="fab fa-github"></i></a></div></li>
-												<li><div class="magnetic-wrap"><a href="https://discord.gg/HGG52EtTc2" class="magnetic-item not-hide-cursor" target="_blank" rel="noopener"><i class="fab fa-discord"></i></a></div></li>
-												<li><div class="magnetic-wrap"><a href="https://www.instagram.com/ardriveapp/" class="magnetic-item not-hide-cursor" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a></div></li>
-												<li><div class="magnetic-wrap"><a href="https://www.reddit.com/r/ar_io/" class="magnetic-item not-hide-cursor" target="_blank" rel="noopener"><i class="fab fa-reddit"></i></a></div></li>
-												<li><div class="magnetic-wrap"><a href="https://www.tiktok.com/@ardrive.io" class="magnetic-item not-hide-cursor" target="_blank" rel="noopener"><i class="fab fa-tiktok"></i></a></div></li>
-												<li><div class="magnetic-wrap"><a href="https://www.youtube.com/channel/UCL4JlkVcgUjyVz4IlKvbS_g" class="magnetic-item not-hide-cursor" target="_blank" rel="noopener"><i class="fab fa-youtube"></i></a></div></li>
-												<li><div class="magnetic-wrap"><a href="https://www.linkedin.com/company/68614891" class="magnetic-item not-hide-cursor" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a></div></li>
-												<li><div class="magnetic-wrap"><a href="https://twitter.com/ar_io_team" class="magnetic-item not-hide-cursor" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a></div></li>
-											</ul>
-										</div> <!-- /.social-buttons -->
-									</div> <!-- /.footer-social -->
-								</div> <!-- /.footer-col-inner -->
-							</div>
-							<!-- Begin footer column -->
-						</div> <!-- /.tt-section-inner -->
-					</footer>
-					<!-- End tt-footer 1-->
-					<!-- ======================
-				///// Begin tt-footer 2/////
-				=========================== -->
-					<footer id="tt-footer" style="">
-						<div class="tt-footer-inner">
-							<!-- Begin footer column
-				<!-- Begin footer column
-				========================= -->
-							<div class="footer-col tt-align-center order-m-last">
-								<div class="footer-col-inner">
-									<!-- <div class="tt-copyright text-gray">
-						<a href="https://ardrive.io/tos-and-privacy/" target="_blank" rel="noopener" class="tt-btn tt-btn-link">
-						<span class="tt-btn-icon"><i class="far fa-copyright"></i></span>
-						<div data-hover="T&C">ar.io</div>
-					</a>
-				</div> -->
-									<div class="tt-copyright">
-										<div class="tt-btn  tt-btn-link" style="cursor: default !important;"> v. 0.1984</div>
-									</div>
-								</div> <!-- /.footer-col-inner -->
-							</div>
-							<!-- Begin footer column -->
-						</div> <!-- /.tt-section-inner -->
-					</footer>
-					<!-- End tt-footer 2-->
-				</div>
+								</div>
 				<!-- End content wrap -->
 			</div><div class="scrollbar-track scrollbar-track-y show" style="display: block;"><div class="scrollbar-thumb scrollbar-thumb-y" style="height: 178.794px; transform: translate3d(0px, 0px, 0px);"></div></div></div>
 			<!-- End scroll container -->
