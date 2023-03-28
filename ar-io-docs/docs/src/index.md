@@ -1,6 +1,6 @@
 ---
-homepage: true
-navbar: true
+homepage: false
+navbar: false
 ---
 <html lang="en">
 <head>
