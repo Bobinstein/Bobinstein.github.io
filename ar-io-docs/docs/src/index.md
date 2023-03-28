@@ -1,9 +1,11 @@
 ---
 homepage: true
 navbar: false
+Footer: false
+guid: false
 ---
 
-<head>
+<html lang="en"><input type="hidden" id="__yoroi_connector_api_injected_type" value="prod"><head>
 	<!-- Title -->
 	<title>Docs | ar.io</title>
 	<!-- Meta -->
@@ -98,7 +100,7 @@ navbar: false
   background: rgba(0, 0, 0, .5);
   border-radius: 4px;
 }
-</style><style>/* ! tailwindcss v3.2.6 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;font-weight:inherit;line-height:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]{display:none}*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::-webkit-backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border-width:0}.absolute{position:absolute}.z-10{z-index:10}.mx-auto{margin-left:auto;margin-right:auto}.ml-1{margin-left:0.25rem}.ml-2{margin-left:0.5rem}.mr-2{margin-right:0.5rem}.mr-3{margin-right:0.75rem}.mr-4{margin-right:1rem}.mt-4{margin-top:1rem}.flex{display:flex}.inline-flex{display:inline-flex}.grid{display:grid}.hidden{display:none}.h-10{height:2.5rem}.h-4{height:1rem}.h-6{height:1.5rem}.w-4{width:1rem}.w-6{width:1.5rem}.w-auto{width:auto}.w-full{width:100%}.grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.items-center{align-items:center}.justify-between{justify-content:space-between}.space-y-4 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem * var(--tw-space-y-reverse))}.rounded-lg{border-radius:0.5rem}.border{border-width:1px}.border-b{border-bottom-width:1px}.border-gray-100{--tw-border-opacity:1;border-color:rgb(243 244 246 / var(--tw-border-opacity))}.border-gray-200{--tw-border-opacity:1;border-color:rgb(229 231 235 / var(--tw-border-opacity))}.border-gray-800{--tw-border-opacity:1;border-color:rgb(31 41 55 / var(--tw-border-opacity))}.bg-transparent{background-color:transparent}.p-2{padding:0.5rem}.p-4{padding:1rem}.px-2{padding-left:0.5rem;padding-right:0.5rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-8{padding-top:2rem;padding-bottom:2rem}.pb-0{padding-bottom:0px}.pl-3{padding-left:0.75rem}.pr-4{padding-right:1rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.font-medium{font-weight:500}.text-gray-400{--tw-text-opacity:1;color:rgb(156 163 175 / var(--tw-text-opacity))}.text-gray-500{--tw-text-opacity:1;color:rgb(107 114 128 / var(--tw-text-opacity))}.text-gray-700{--tw-text-opacity:1;color:rgb(55 65 81 / var(--tw-text-opacity))}.text-gray-900{--tw-text-opacity:1;color:rgb(17 24 39 / var(--tw-text-opacity))}.shadow-md{--tw-shadow:0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.hover\:bg-gray-50:hover{--tw-bg-opacity:1;background-color:rgb(249 250 251 / var(--tw-bg-opacity))}.hover\:bg-red-100:hover{--tw-bg-opacity:1;background-color:rgb(254 226 226 / var(--tw-bg-opacity))}.hover\:text-white:hover{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}.focus\:outline-none:focus{outline:2px solid transparent;outline-offset:2px}.focus\:ring-2:focus{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000)}.focus\:ring-gray-200:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(229 231 235 / var(--tw-ring-opacity))}.group:hover .group-hover\:text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}@media (prefers-color-scheme: dark){.dark\:border-gray-700{--tw-border-opacity:1;border-color:rgb(55 65 81 / var(--tw-border-opacity))}.dark\:text-gray-300{--tw-text-opacity:1;color:rgb(209 213 219 / var(--tw-text-opacity))}.dark\:text-gray-400{--tw-text-opacity:1;color:rgb(156 163 175 / var(--tw-text-opacity))}.dark\:text-gray-500{--tw-text-opacity:1;color:rgb(107 114 128 / var(--tw-text-opacity))}.dark\:text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}.dark\:hover\:bg-gray-700:hover{--tw-bg-opacity:1;background-color:rgb(55 65 81 / var(--tw-bg-opacity))}.dark\:hover\:text-white:hover{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}.dark\:focus\:ring-gray-600:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(75 85 99 / var(--tw-ring-opacity))}.group:hover .dark\:group-hover\:text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}}@media (min-width: 640px){.sm\:mr-6{margin-right:1.5rem}.sm\:h-9{height:2.25rem}}@media (min-width: 768px){.md\:order-1{order:1}.md\:order-2{order:2}.md\:mt-0{margin-top:0px}.md\:flex{display:flex}.md\:hidden{display:none}.md\:w-auto{width:auto}.md\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}.md\:flex-row{flex-direction:row}.md\:space-x-8 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(2rem * var(--tw-space-x-reverse));margin-left:calc(2rem * calc(1 - var(--tw-space-x-reverse)))}.md\:border-0{border-width:0px}.md\:p-0{padding:0px}.md\:px-12{padding-left:3rem;padding-right:3rem}.md\:pb-4{padding-bottom:1rem}.md\:hover\:bg-transparent:hover{background-color:transparent}.md\:hover\:text-blue-600:hover{--tw-text-opacity:1;color:rgb(37 99 235 / var(--tw-text-opacity))}.md\:hover\:text-white:hover{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}@media (prefers-color-scheme: dark){.md\:dark\:hover\:bg-transparent:hover{background-color:transparent}.md\:dark\:hover\:text-white:hover{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}}}@media (min-width: 1024px){.lg\:px-12{padding-left:3rem;padding-right:3rem}}@media (min-width: 1280px){.xl\:px-12{padding-left:3rem;padding-right:3rem}}</style><link rel="stylesheet" href="https://embed.typeform.com/next/css/slider.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"></head>
+</style><style>/* ! tailwindcss v3.2.7 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;font-weight:inherit;line-height:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]{display:none}*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::-webkit-backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border-width:0}.absolute{position:absolute}.z-10{z-index:10}.mx-auto{margin-left:auto;margin-right:auto}.ml-1{margin-left:0.25rem}.ml-2{margin-left:0.5rem}.mr-2{margin-right:0.5rem}.mr-3{margin-right:0.75rem}.mr-4{margin-right:1rem}.mt-4{margin-top:1rem}.flex{display:flex}.inline-flex{display:inline-flex}.grid{display:grid}.hidden{display:none}.h-10{height:2.5rem}.h-4{height:1rem}.h-6{height:1.5rem}.w-4{width:1rem}.w-6{width:1.5rem}.w-auto{width:auto}.w-full{width:100%}.grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.items-center{align-items:center}.justify-between{justify-content:space-between}.space-y-4 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem * var(--tw-space-y-reverse))}.rounded-lg{border-radius:0.5rem}.border{border-width:1px}.border-b{border-bottom-width:1px}.border-gray-100{--tw-border-opacity:1;border-color:rgb(243 244 246 / var(--tw-border-opacity))}.border-gray-200{--tw-border-opacity:1;border-color:rgb(229 231 235 / var(--tw-border-opacity))}.border-gray-800{--tw-border-opacity:1;border-color:rgb(31 41 55 / var(--tw-border-opacity))}.bg-transparent{background-color:transparent}.p-2{padding:0.5rem}.p-4{padding:1rem}.px-2{padding-left:0.5rem;padding-right:0.5rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-8{padding-top:2rem;padding-bottom:2rem}.pb-0{padding-bottom:0px}.pl-3{padding-left:0.75rem}.pr-4{padding-right:1rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.font-medium{font-weight:500}.text-gray-400{--tw-text-opacity:1;color:rgb(156 163 175 / var(--tw-text-opacity))}.text-gray-500{--tw-text-opacity:1;color:rgb(107 114 128 / var(--tw-text-opacity))}.text-gray-700{--tw-text-opacity:1;color:rgb(55 65 81 / var(--tw-text-opacity))}.text-gray-900{--tw-text-opacity:1;color:rgb(17 24 39 / var(--tw-text-opacity))}.shadow-md{--tw-shadow:0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.hover\:bg-gray-50:hover{--tw-bg-opacity:1;background-color:rgb(249 250 251 / var(--tw-bg-opacity))}.hover\:bg-red-100:hover{--tw-bg-opacity:1;background-color:rgb(254 226 226 / var(--tw-bg-opacity))}.hover\:text-white:hover{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}.focus\:outline-none:focus{outline:2px solid transparent;outline-offset:2px}.focus\:ring-2:focus{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000)}.focus\:ring-gray-200:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(229 231 235 / var(--tw-ring-opacity))}.group:hover .group-hover\:text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}@media (prefers-color-scheme: dark){.dark\:border-gray-700{--tw-border-opacity:1;border-color:rgb(55 65 81 / var(--tw-border-opacity))}.dark\:text-gray-300{--tw-text-opacity:1;color:rgb(209 213 219 / var(--tw-text-opacity))}.dark\:text-gray-400{--tw-text-opacity:1;color:rgb(156 163 175 / var(--tw-text-opacity))}.dark\:text-gray-500{--tw-text-opacity:1;color:rgb(107 114 128 / var(--tw-text-opacity))}.dark\:text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}.dark\:hover\:bg-gray-700:hover{--tw-bg-opacity:1;background-color:rgb(55 65 81 / var(--tw-bg-opacity))}.dark\:hover\:text-white:hover{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}.dark\:focus\:ring-gray-600:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(75 85 99 / var(--tw-ring-opacity))}.group:hover .dark\:group-hover\:text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}}@media (min-width: 640px){.sm\:mr-6{margin-right:1.5rem}.sm\:h-9{height:2.25rem}}@media (min-width: 768px){.md\:order-1{order:1}.md\:order-2{order:2}.md\:mt-0{margin-top:0px}.md\:flex{display:flex}.md\:hidden{display:none}.md\:w-auto{width:auto}.md\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}.md\:flex-row{flex-direction:row}.md\:space-x-8 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(2rem * var(--tw-space-x-reverse));margin-left:calc(2rem * calc(1 - var(--tw-space-x-reverse)))}.md\:border-0{border-width:0px}.md\:p-0{padding:0px}.md\:px-12{padding-left:3rem;padding-right:3rem}.md\:pb-4{padding-bottom:1rem}.md\:hover\:bg-transparent:hover{background-color:transparent}.md\:hover\:text-blue-600:hover{--tw-text-opacity:1;color:rgb(37 99 235 / var(--tw-text-opacity))}.md\:hover\:text-white:hover{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}@media (prefers-color-scheme: dark){.md\:dark\:hover\:bg-transparent:hover{background-color:transparent}.md\:dark\:hover\:text-white:hover{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}}}@media (min-width: 1024px){.lg\:px-12{padding-left:3rem;padding-right:3rem}}@media (min-width: 1280px){.xl\:px-12{padding-left:3rem;padding-right:3rem}}</style><link rel="stylesheet" href="https://embed.typeform.com/next/css/slider.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"></head>
 	<!-- ===========
 	///// Body /////
 	================
@@ -108,7 +110,7 @@ navbar: false
 	* Use class "tt-magic-cursor" to enable magic cursor.
 	* Note: there may be classes that are specific to this page only!
 	-->
-	<body id="body" class="tt-transition tt-boxed tt-smooth-scroll tt-magic-cursor page-header-on tt-sidebar-on tt-ph-visible" style="">
+	<body id="body" class="tt-transition tt-boxed tt-smooth-scroll tt-magic-cursor page-header-on tt-sidebar-on" style="">
 		<!-- *************************************
 		*********** Begin body inner *************
 		************************************** -->
@@ -124,13 +126,13 @@ navbar: false
 			<!-- Begin magic cursor
 			======================== -->
 			<div id="magic-cursor" style="opacity: 0; visibility: hidden;">
-				<div id="ball" style="opacity: 0.5; border-width: 2px; height: 36px; width: 36px; transform: translate(-50%, -50%) translate(1180px, 153px);" class=""></div>
+				<div id="ball" style="opacity: 0.5; border-width: 2px; height: 36px; width: 36px; transform: translate(-50%, -50%) translate(254px, 340px);" class=""></div>
 			</div>
 			<!-- End magic cursor -->
 			<!-- *****************************************
 			*********** Begin scroll container ***********
 			****************************************** -->
-			<div id="scroll-container" data-scrollbar="true" tabindex="-1" style="overflow: hidden; outline: none;"><div class="scroll-content" style="transform: translate3d(0px, 0px, 0px);">
+			<div id="scroll-container" data-scrollbar="true" tabindex="-1" style="overflow: hidden; outline: none;"><div class="scroll-content" style="transform: translate3d(0px, -600px, 0px);">
 				<!-- ===================
 				///// Begin header /////
 				========================
@@ -157,7 +159,7 @@ navbar: false
 									<button id="mega-menu-icons-dropdown-button" data-dropdown-toggle="mega-menu-icons-dropdown-learn" class="flex justify-between items-center mr-4 py-2 pr-4 pl-3 w-full font-large text-gray-700 border-b border-gray-100 md:w-auto hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0 dark:text-gray-300 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 ">
 										<img src="/images/strips.png" width="25" class="mr-2" alt="">LEARN
 									</button>
-									<div id="mega-menu-icons-dropdown-learn" class="grid hidden  absolute z-10 grid-cols-2 w-auto text-sm bg-transparent  border border-gray-800 shadow-md dark:border-gray-700 md:grid-cols-3 " data-popper-placement="bottom" style="position: absolute; inset: 0px auto auto 0px; background: rgb(18, 18, 18); margin: 0px; transform: translate(279px, 97px);" data-popper-reference-hidden="" data-popper-escaped="">
+									<div id="mega-menu-icons-dropdown-learn" class="grid hidden  absolute z-10 grid-cols-2 w-auto text-sm bg-transparent  border border-gray-800 shadow-md dark:border-gray-700 md:grid-cols-3 " data-popper-placement="bottom" style="position: absolute; inset: 0px auto auto 0px; background: rgb(18, 18, 18); margin: 0px; transform: translate(0px, 610px);" data-popper-reference-hidden="" data-popper-escaped="">
 										<div class="p-4 pb-0 text-gray-900 md:pb-4 dark:text-white">
 											<strong>About ar.io</strong>
 											<ul class="space-y-4" aria-labelledby="mega-menu-icons-dropdown-button">
@@ -165,7 +167,7 @@ navbar: false
 												<li>
 													<a href="#" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-white dark:hover:text-white group">
 														<span class="sr-only">What is ar.io?</span>
-														<svg class="mr-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"></svg>
+														<svg class="mr-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" fill-rule="evenodd" d="M11.622 1.602a.75.75 0 01.756 0l2.25 1.313a.75.75 0 01-.756 1.295L12 3.118 10.128 4.21a.75.75 0 11-.756-1.295l2.25-1.313zM5.898 5.81a.75.75 0 01-.27 1.025l-1.14.665 1.14.665a.75.75 0 11-.756 1.295L3.75 8.806v.944a.75.75 0 01-1.5 0V7.5a.75.75 0 01.372-.648l2.25-1.312a.75.75 0 011.026.27zm12.204 0a.75.75 0 011.026-.27l2.25 1.312a.75.75 0 01.372.648v2.25a.75.75 0 01-1.5 0v-.944l-1.122.654a.75.75 0 11-.756-1.295l1.14-.665-1.14-.665a.75.75 0 01-.27-1.025zm-9 5.25a.75.75 0 011.026-.27L12 11.882l1.872-1.092a.75.75 0 11.756 1.295l-1.878 1.096V15a.75.75 0 01-1.5 0v-1.82l-1.878-1.095a.75.75 0 01-.27-1.025zM3 13.5a.75.75 0 01.75.75v1.82l1.878 1.095a.75.75 0 11-.756 1.295l-2.25-1.312a.75.75 0 01-.372-.648v-2.25A.75.75 0 013 13.5zm18 0a.75.75 0 01.75.75v2.25a.75.75 0 01-.372.648l-2.25 1.312a.75.75 0 11-.756-1.295l1.878-1.096V14.25a.75.75 0 01.75-.75zm-9 5.25a.75.75 0 01.75.75v.944l1.122-.654a.75.75 0 11.756 1.295l-2.25 1.313a.75.75 0 01-.756 0l-2.25-1.313a.75.75 0 11.756-1.295l1.122.654V19.5a.75.75 0 01.75-.75z"></path></svg>
 														What is ar.io?
 													</a>
 												</li>
@@ -185,14 +187,14 @@ navbar: false
 												<li>
 													<a href="#" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-white dark:hover:text-white group">
 														<span class="sr-only">What is Arweave?</span>
-														<svg class="mr-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"></svg>
+														<svg class="mr-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" fill-rule="evenodd" d="M19.902 4.098a3.75 3.75 0 00-5.304 0l-4.5 4.5a3.75 3.75 0 001.035 6.037.75.75 0 01-.646 1.353 5.25 5.25 0 01-1.449-8.45l4.5-4.5a5.25 5.25 0 117.424 7.424l-1.757 1.757a.75.75 0 11-1.06-1.06l1.757-1.757a3.75 3.75 0 000-5.304zm-7.389 4.267a.75.75 0 011-.353 5.25 5.25 0 011.449 8.45l-4.5 4.5a5.25 5.25 0 11-7.424-7.424l1.757-1.757a.75.75 0 111.06 1.06l-1.757 1.757a3.75 3.75 0 105.304 5.304l4.5-4.5a3.75 3.75 0 00-1.035-6.037.75.75 0 01-.354-1z"></path></svg>
 														What is Arweave?
 													</a>
 												</li>
 												<li>
 													<a href="#" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-white dark:hover:text-white group">
 														<span class="sr-only">What is the permaweb?</span>
-														<svg class="mr-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"></svg>
+														<svg class="mr-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zM6.262 6.072a8.25 8.25 0 1010.562-.766 4.5 4.5 0 01-1.318 1.357L14.25 7.5l.165.33a.809.809 0 01-1.086 1.085l-.604-.302a1.125 1.125 0 00-1.298.21l-.132.131c-.439.44-.439 1.152 0 1.591l.296.296c.256.257.622.374.98.314l1.17-.195c.323-.054.654.036.905.245l1.33 1.108c.32.267.46.694.358 1.1a8.7 8.7 0 01-2.288 4.04l-.723.724a1.125 1.125 0 01-1.298.21l-.153-.076a1.125 1.125 0 01-.622-1.006v-1.089c0-.298-.119-.585-.33-.796l-1.347-1.347a1.125 1.125 0 01-.21-1.298L9.75 12l-1.64-1.64a6 6 0 01-1.676-3.257l-.172-1.03z"></path></svg>
 														What is the permaweb?
 													</a>
 												</li>
@@ -206,7 +208,7 @@ navbar: false
 												<li>
 													<a href="#" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-white dark:hover:text-white group">
 														<span class="sr-only">The problem of long-term data storage</span>
-														<svg class="mr-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"></svg>
+														<svg class="mr-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M8.25 10.875a2.625 2.625 0 115.25 0 2.625 2.625 0 01-5.25 0z"></path><path clip-rule="evenodd" fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm-1.125 4.5a4.125 4.125 0 102.338 7.524l2.007 2.006a.75.75 0 101.06-1.06l-2.006-2.007a4.125 4.125 0 00-3.399-6.463z"></path></svg>
 														The problem of long-term data storage
 													</a>
 												</li>
@@ -218,7 +220,7 @@ navbar: false
 									<button id="mega-menu-icons-dropdown-button-2" data-dropdown-toggle="mega-menu-icons-dropdown-use" class="flex justify-between items-center mr-4 py-2 pr-4 pl-3 w-full font-large text-gray-700 border-b border-gray-100 md:w-auto hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-white md:p-0 dark:text-gray-300 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 ">
 										<img src="/images/swipe.png" width="25" class="mr-2" alt="">USE
 									</button>
-									<div id="mega-menu-icons-dropdown-use" class="grid hidden  absolute z-10 grid-cols-2 w-auto text-sm bg-transparent  border border-gray-800 shadow-md dark:border-gray-700 md:grid-cols-3 " data-popper-placement="bottom" style="position: absolute; inset: 0px auto auto 0px; background: rgb(18, 18, 18); margin: 0px; transform: translate(397px, 97px);" data-popper-reference-hidden="" data-popper-escaped="">
+									<div id="mega-menu-icons-dropdown-use" class="grid hidden  absolute z-10 grid-cols-2 w-auto text-sm bg-transparent  border border-gray-800 shadow-md dark:border-gray-700 md:grid-cols-3 " data-popper-placement="bottom" style="position: absolute; inset: 0px auto auto 0px; background: rgb(18, 18, 18); margin: 0px; transform: translate(0px, 610px);" data-popper-reference-hidden="" data-popper-escaped="">
 										<div class="p-4 pb-0 text-gray-900 md:pb-4 dark:text-white">
 											<strong>Products</strong>
 											<ul class="space-y-4" aria-labelledby="mega-menu-icons-dropdown-button">
@@ -226,17 +228,17 @@ navbar: false
 												<li>
 													<a href="#" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-white dark:hover:text-white group">
 														<span class="sr-only">ArDrive</span>
-														<svg class="mr-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" focusable="false" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"></svg>
+														<svg class="mr-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" focusable="false" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" fill-rule="evenodd" d="M2.25 5.25a3 3 0 013-3h13.5a3 3 0 013 3V15a3 3 0 01-3 3h-3v.257c0 .597.237 1.17.659 1.591l.621.622a.75.75 0 01-.53 1.28h-9a.75.75 0 01-.53-1.28l.621-.622a2.25 2.25 0 00.659-1.59V18h-3a3 3 0 01-3-3V5.25zm1.5 0v7.5a1.5 1.5 0 001.5 1.5h13.5a1.5 1.5 0 001.5-1.5v-7.5a1.5 1.5 0 00-1.5-1.5H5.25a1.5 1.5 0 00-1.5 1.5z"></path></svg>
 														ArDrive
-														<svg class="ml-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"></svg>
+														<svg class="ml-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" fill-rule="evenodd" d="M8.25 3.75H19.5a.75.75 0 01.75.75v11.25a.75.75 0 01-1.5 0V6.31L5.03 20.03a.75.75 0 01-1.06-1.06L17.69 5.25H8.25a.75.75 0 010-1.5z"></path></svg>
 													</a>
 												</li>
 												<li>
 													<a href="#" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-white dark:hover:text-white group">
 														<span class="sr-only">ArNS</span>
-														<svg class="mr-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"></svg>
+														<svg class="mr-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M5.625 3.75a2.625 2.625 0 100 5.25h12.75a2.625 2.625 0 000-5.25H5.625zM3.75 11.25a.75.75 0 000 1.5h16.5a.75.75 0 000-1.5H3.75zM3 15.75a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75zM3.75 18.75a.75.75 0 000 1.5h16.5a.75.75 0 000-1.5H3.75z"></path></svg>
 														ArNS (Beta)
-														<svg class="ml-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"></svg>
+														<svg class="ml-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" fill-rule="evenodd" d="M8.25 3.75H19.5a.75.75 0 01.75.75v11.25a.75.75 0 01-1.5 0V6.31L5.03 20.03a.75.75 0 01-1.06-1.06L17.69 5.25H8.25a.75.75 0 010-1.5z"></path></svg>
 													</a>
 												</li>
 											</ul>
@@ -246,7 +248,7 @@ navbar: false
 												<li>
 													<a href="#" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-white dark:hover:text-white group">
 														<span class="sr-only">ar.io Gateways</span>
-														<svg class="mr-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"></svg>
+														<svg class="mr-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M21.721 12.752a9.711 9.711 0 00-.945-5.003 12.754 12.754 0 01-4.339 2.708 18.991 18.991 0 01-.214 4.772 17.165 17.165 0 005.498-2.477zM14.634 15.55a17.324 17.324 0 00.332-4.647c-.952.227-1.945.347-2.966.347-1.021 0-2.014-.12-2.966-.347a17.515 17.515 0 00.332 4.647 17.385 17.385 0 005.268 0zM9.772 17.119a18.963 18.963 0 004.456 0A17.182 17.182 0 0112 21.724a17.18 17.18 0 01-2.228-4.605zM7.777 15.23a18.87 18.87 0 01-.214-4.774 12.753 12.753 0 01-4.34-2.708 9.711 9.711 0 00-.944 5.004 17.165 17.165 0 005.498 2.477zM21.356 14.752a9.765 9.765 0 01-7.478 6.817 18.64 18.64 0 001.988-4.718 18.627 18.627 0 005.49-2.098zM2.644 14.752c1.682.971 3.53 1.688 5.49 2.099a18.64 18.64 0 001.988 4.718 9.765 9.765 0 01-7.478-6.816zM13.878 2.43a9.755 9.755 0 016.116 3.986 11.267 11.267 0 01-3.746 2.504 18.63 18.63 0 00-2.37-6.49zM12 2.276a17.152 17.152 0 012.805 7.121c-.897.23-1.837.353-2.805.353-.968 0-1.908-.122-2.805-.353A17.151 17.151 0 0112 2.276zM10.122 2.43a18.629 18.629 0 00-2.37 6.49 11.266 11.266 0 01-3.746-2.504 9.754 9.754 0 016.116-3.985z"></path></svg>
 														ar.io Gateways
 													</a>
 												</li>
@@ -257,7 +259,7 @@ navbar: false
 												<li>
 													<a href="#" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-white dark:hover:text-white group">
 														<span class="sr-only">Wallet</span>
-														<svg class="mr-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"></svg>
+														<svg class="mr-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M2.273 5.625A4.483 4.483 0 015.25 4.5h13.5c1.141 0 2.183.425 2.977 1.125A3 3 0 0018.75 3H5.25a3 3 0 00-2.977 2.625zM2.273 8.625A4.483 4.483 0 015.25 7.5h13.5c1.141 0 2.183.425 2.977 1.125A3 3 0 0018.75 6H5.25a3 3 0 00-2.977 2.625zM5.25 9a3 3 0 00-3 3v6a3 3 0 003 3h13.5a3 3 0 003-3v-6a3 3 0 00-3-3H15a.75.75 0 00-.75.75 2.25 2.25 0 01-4.5 0A.75.75 0 009 9H5.25z"></path></svg>
 														Wallet
 													</a>
 												</li>
@@ -268,9 +270,9 @@ navbar: false
 												<li>
 													<a href="#" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-white dark:hover:text-white group">
 														<span class="sr-only">Pricing Calculator</span>
-														<svg class="mr-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"></svg>
+														<svg class="mr-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" fill-rule="evenodd" d="M6.32 1.827a49.255 49.255 0 0111.36 0c1.497.174 2.57 1.46 2.57 2.93V19.5a3 3 0 01-3 3H6.75a3 3 0 01-3-3V4.757c0-1.47 1.073-2.756 2.57-2.93zM7.5 11.25a.75.75 0 01.75-.75h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75H8.25a.75.75 0 01-.75-.75v-.008zm.75 1.5a.75.75 0 00-.75.75v.008c0 .414.336.75.75.75h.008a.75.75 0 00.75-.75V13.5a.75.75 0 00-.75-.75H8.25zm-.75 3a.75.75 0 01.75-.75h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75H8.25a.75.75 0 01-.75-.75v-.008zm.75 1.5a.75.75 0 00-.75.75v.008c0 .414.336.75.75.75h.008a.75.75 0 00.75-.75V18a.75.75 0 00-.75-.75H8.25zm1.748-6a.75.75 0 01.75-.75h.007a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75h-.007a.75.75 0 01-.75-.75v-.008zm.75 1.5a.75.75 0 00-.75.75v.008c0 .414.335.75.75.75h.007a.75.75 0 00.75-.75V13.5a.75.75 0 00-.75-.75h-.007zm-.75 3a.75.75 0 01.75-.75h.007a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75h-.007a.75.75 0 01-.75-.75v-.008zm.75 1.5a.75.75 0 00-.75.75v.008c0 .414.335.75.75.75h.007a.75.75 0 00.75-.75V18a.75.75 0 00-.75-.75h-.007zm1.754-6a.75.75 0 01.75-.75h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75h-.008a.75.75 0 01-.75-.75v-.008zm.75 1.5a.75.75 0 00-.75.75v.008c0 .414.336.75.75.75h.008a.75.75 0 00.75-.75V13.5a.75.75 0 00-.75-.75h-.008zm-.75 3a.75.75 0 01.75-.75h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75h-.008a.75.75 0 01-.75-.75v-.008zm.75 1.5a.75.75 0 00-.75.75v.008c0 .414.336.75.75.75h.008a.75.75 0 00.75-.75V18a.75.75 0 00-.75-.75h-.008zm1.748-6a.75.75 0 01.75-.75h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75h-.008a.75.75 0 01-.75-.75v-.008zm.75 1.5a.75.75 0 00-.75.75v.008c0 .414.336.75.75.75h.008a.75.75 0 00.75-.75V13.5a.75.75 0 00-.75-.75h-.008zm-8.25-6A.75.75 0 018.25 6h7.5a.75.75 0 01.75.75v.75a.75.75 0 01-.75.75h-7.5a.75.75 0 01-.75-.75v-.75zm9 9a.75.75 0 00-1.5 0V18a.75.75 0 001.5 0v-2.25z"></path></svg>
 														Pricing Calculator
-														<svg class="ml-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"></svg>
+														<svg class="ml-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" fill-rule="evenodd" d="M8.25 3.75H19.5a.75.75 0 01.75.75v11.25a.75.75 0 01-1.5 0V6.31L5.03 20.03a.75.75 0 01-1.06-1.06L17.69 5.25H8.25a.75.75 0 010-1.5z"></path></svg>
 													</a>
 												</li>
 												<li>
@@ -278,7 +280,7 @@ navbar: false
 														<span class="sr-only">Viewblock</span>
 														<svg class="mr-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z"></path></svg>
 														Viewblock
-														<svg class="ml-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"></svg>
+														<svg class="ml-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" fill-rule="evenodd" d="M8.25 3.75H19.5a.75.75 0 01.75.75v11.25a.75.75 0 01-1.5 0V6.31L5.03 20.03a.75.75 0 01-1.06-1.06L17.69 5.25H8.25a.75.75 0 010-1.5z"></path></svg>
 													</a>
 												</li>
 											</ul>
@@ -289,7 +291,7 @@ navbar: false
 									<button id="mega-menu-icons-dropdown-button" data-dropdown-toggle="mega-menu-icons-dropdown-develop" class="flex justify-between items-center mr-4 py-2 pr-4 pl-3 w-full font-large text-gray-700 border-b border-gray-100 md:w-auto hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-white md:p-0 dark:text-gray-300 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 ">
 										<img src="/images/triangle.png" width="25" class="mr-2" alt="">DEVELOP
 									</button>
-									<div id="mega-menu-icons-dropdown-develop" class="grid hidden  absolute z-10 grid-cols-2 w-auto text-sm bg-transparent  border border-gray-800 shadow-md dark:border-gray-700 md:grid-cols-3 " data-popper-placement="bottom" style="position: absolute; inset: 0px auto auto 0px; background: rgb(18, 18, 18); margin: 0px; transform: translate(524px, 97px);" data-popper-reference-hidden="" data-popper-escaped="">
+									<div id="mega-menu-icons-dropdown-develop" class="grid hidden  absolute z-10 grid-cols-2 w-auto text-sm bg-transparent  border border-gray-800 shadow-md dark:border-gray-700 md:grid-cols-3 " data-popper-placement="bottom" style="position: absolute; inset: 0px auto auto 0px; background: rgb(18, 18, 18); margin: 0px; transform: translate(0px, 610px);" data-popper-reference-hidden="" data-popper-escaped="">
 										<div class="p-4 pb-0 text-gray-900 md:pb-4 dark:text-white">
 											<strong>Developer Tools</strong>
 											<ul class="space-y-4" aria-labelledby="mega-menu-icons-dropdown-button">
@@ -297,9 +299,9 @@ navbar: false
 												<li>
 													<a href="#" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-white dark:hover:text-white group">
 														<span class="sr-only">CLI</span>
-														<svg class="mr-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"></svg>
+														<svg class="mr-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" fill-rule="evenodd" d="M2.25 6a3 3 0 013-3h13.5a3 3 0 013 3v12a3 3 0 01-3 3H5.25a3 3 0 01-3-3V6zm3.97.97a.75.75 0 011.06 0l2.25 2.25a.75.75 0 010 1.06l-2.25 2.25a.75.75 0 01-1.06-1.06l1.72-1.72-1.72-1.72a.75.75 0 010-1.06zm4.28 4.28a.75.75 0 000 1.5h3a.75.75 0 000-1.5h-3z"></path></svg>
 														CLI
-														<svg class="ml-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"></svg>
+														<svg class="ml-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" fill-rule="evenodd" d="M8.25 3.75H19.5a.75.75 0 01.75.75v11.25a.75.75 0 01-1.5 0V6.31L5.03 20.03a.75.75 0 01-1.06-1.06L17.69 5.25H8.25a.75.75 0 010-1.5z"></path></svg>
 													</a>
 												</li>
 												<li>
@@ -307,7 +309,7 @@ navbar: false
 														<span class="sr-only">ArDrive Core-JS</span>
 														<svg class="mr-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12.316 3.051a1 1 0 01.633 1.265l-4 12a1 1 0 11-1.898-.632l4-12a1 1 0 011.265-.633zM5.707 6.293a1 1 0 010 1.414L3.414 10l2.293 2.293a1 1 0 11-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0zm8.586 0a1 1 0 011.414 0l3 3a1 1 0 010 1.414l-3 3a1 1 0 11-1.414-1.414L16.586 10l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
 														ArDrive Core-JS
-														<svg class="ml-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"></svg>
+														<svg class="ml-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" fill-rule="evenodd" d="M8.25 3.75H19.5a.75.75 0 01.75.75v11.25a.75.75 0 01-1.5 0V6.31L5.03 20.03a.75.75 0 01-1.06-1.06L17.69 5.25H8.25a.75.75 0 010-1.5z"></path></svg>
 													</a>
 												</li>
 											</ul>
@@ -318,7 +320,7 @@ navbar: false
 									<button id="mega-menu-icons-dropdown-button" data-dropdown-toggle="mega-menu-icons-dropdown-engage" class="flex justify-between items-center mr-4 py-2 pr-4 pl-3 w-full font-large text-gray-700 border-b border-gray-100 md:w-auto hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-white md:p-0 dark:text-gray-300 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 ">
 										<img src="/images/plate.png" width="25" class="mr-2" alt="">ENGAGE
 									</button>
-									<div id="mega-menu-icons-dropdown-engage" class="grid hidden  absolute z-10 grid-cols-2 w-auto text-sm bg-transparent  border border-gray-800 shadow-md dark:border-gray-700 md:grid-cols-3 " data-popper-placement="bottom" style="position: absolute; inset: 0px auto auto 0px; background: rgb(18, 18, 18); margin: 0px; transform: translate(665px, 97px);" data-popper-reference-hidden="" data-popper-escaped="">
+									<div id="mega-menu-icons-dropdown-engage" class="grid hidden  absolute z-10 grid-cols-2 w-auto text-sm bg-transparent  border border-gray-800 shadow-md dark:border-gray-700 md:grid-cols-3 " data-popper-placement="bottom" style="position: absolute; inset: 0px auto auto 0px; background: rgb(18, 18, 18); margin: 0px; transform: translate(0px, 610px);" data-popper-reference-hidden="" data-popper-escaped="">
 										<div class="p-4 pb-0 text-gray-900 md:pb-4 dark:text-white">
 											<strong>Ecosystem</strong>
 											<ul class="space-y-4" aria-labelledby="mega-menu-icons-dropdown-button">
@@ -333,14 +335,14 @@ navbar: false
 												<li>
 													<a href="#" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-white dark:hover:text-white group">
 														<span class="sr-only">Blog</span>
-														<svg class="mr-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" focusable="false" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"></svg>
+														<svg class="mr-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" focusable="false" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" fill-rule="evenodd" d="M3.75 4.5a.75.75 0 01.75-.75h.75c8.284 0 15 6.716 15 15v.75a.75.75 0 01-.75.75h-.75a.75.75 0 01-.75-.75v-.75C18 11.708 12.292 6 5.25 6H4.5a.75.75 0 01-.75-.75V4.5zm0 6.75a.75.75 0 01.75-.75h.75a8.25 8.25 0 018.25 8.25v.75a.75.75 0 01-.75.75H12a.75.75 0 01-.75-.75v-.75a6 6 0 00-6-6H4.5a.75.75 0 01-.75-.75v-.75zm0 7.5a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z"></path></svg>
 														Blog
 													</a>
 												</li>
 												<li>
 													<a href="#" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-white dark:hover:text-white group">
 														<span class="sr-only">Socials</span>
-														<svg class="mr-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" focusable="false" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"></svg>
+														<svg class="mr-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" focusable="false" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" fill-rule="evenodd" d="M11.097 1.515a.75.75 0 01.589.882L10.666 7.5h4.47l1.079-5.397a.75.75 0 111.47.294L16.665 7.5h3.585a.75.75 0 010 1.5h-3.885l-1.2 6h3.585a.75.75 0 010 1.5h-3.885l-1.08 5.397a.75.75 0 11-1.47-.294l1.02-5.103h-4.47l-1.08 5.397a.75.75 0 01-1.47-.294l1.02-5.103H3.75a.75.75 0 110-1.5h3.885l1.2-6H5.25a.75.75 0 010-1.5h3.885l1.08-5.397a.75.75 0 01.882-.588zM10.365 9l-1.2 6h4.47l1.2-6h-4.47z"></path></svg>
 														Socials
 													</a>
 												</li>
@@ -362,9 +364,9 @@ navbar: false
 												<li>
 													<a href="#" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-white dark:hover:text-white group">
 														<span class="sr-only">The Arcast</span>
-														<svg class="mr-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" focusable="false" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"></svg>
+														<svg class="mr-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" focusable="false" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" fill-rule="evenodd" d="M5.636 4.575a.75.75 0 010 1.06 9 9 0 000 12.729.75.75 0 01-1.06 1.06c-4.101-4.1-4.101-10.748 0-14.849a.75.75 0 011.06 0zm12.728 0a.75.75 0 011.06 0c4.101 4.1 4.101 10.749 0 14.85a.75.75 0 11-1.06-1.061 9 9 0 000-12.728.75.75 0 010-1.06zM7.757 6.696a.75.75 0 010 1.061 6 6 0 000 8.485.75.75 0 01-1.06 1.061 7.5 7.5 0 010-10.607.75.75 0 011.06 0zm8.486 0a.75.75 0 011.06 0 7.5 7.5 0 010 10.607.75.75 0 01-1.06-1.06 6 6 0 000-8.486.75.75 0 010-1.06zM9.879 8.818a.75.75 0 010 1.06 3 3 0 000 4.243.75.75 0 11-1.061 1.06 4.5 4.5 0 010-6.363.75.75 0 011.06 0zm4.242 0a.75.75 0 011.061 0 4.5 4.5 0 010 6.364.75.75 0 01-1.06-1.06 3 3 0 000-4.244.75.75 0 010-1.06zM10.875 12a1.125 1.125 0 112.25 0 1.125 1.125 0 01-2.25 0z"></path></svg>
 														The Arcast
-														<svg class="ml-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"></svg>
+														<svg class="ml-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" fill-rule="evenodd" d="M8.25 3.75H19.5a.75.75 0 01.75.75v11.25a.75.75 0 01-1.5 0V6.31L5.03 20.03a.75.75 0 01-1.06-1.06L17.69 5.25H8.25a.75.75 0 010-1.5z"></path></svg>
 													</a>
 												</li>
 											</ul>
@@ -374,9 +376,9 @@ navbar: false
 												<li>
 													<a href="#" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-white dark:hover:text-white group">
 														<span class="sr-only">Merch Store</span>
-														<svg class="mr-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" focusable="false" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"></svg>
+														<svg class="mr-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" focusable="false" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" fill-rule="evenodd" d="M7.5 6v.75H5.513c-.96 0-1.764.724-1.865 1.679l-1.263 12A1.875 1.875 0 004.25 22.5h15.5a1.875 1.875 0 001.865-2.071l-1.263-12a1.875 1.875 0 00-1.865-1.679H16.5V6a4.5 4.5 0 10-9 0zM12 3a3 3 0 00-3 3v.75h6V6a3 3 0 00-3-3zm-3 8.25a3 3 0 106 0v-.75a.75.75 0 011.5 0v.75a4.5 4.5 0 11-9 0v-.75a.75.75 0 011.5 0v.75z"></path></svg>
 														Merch Store
-														<svg class="ml-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"></svg>
+														<svg class="ml-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" fill-rule="evenodd" d="M8.25 3.75H19.5a.75.75 0 01.75.75v11.25a.75.75 0 01-1.5 0V6.31L5.03 20.03a.75.75 0 01-1.06-1.06L17.69 5.25H8.25a.75.75 0 010-1.5z"></path></svg>
 													</a>
 												</li>
 											</ul>
@@ -387,7 +389,7 @@ navbar: false
 									<button id="mega-menu-icons-dropdown-button" data-dropdown-toggle="mega-menu-icons-dropdown-about" class="flex justify-between items-center mr-4 py-2 pr-4 pl-3 w-full font-large text-gray-700 border-b border-gray-100 md:w-auto hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-white md:p-0 dark:text-gray-300 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 ">
 										<img src="/images/circle.png" width="25" class="mr-2" alt="">ABOUT
 									</button>
-									<div id="mega-menu-icons-dropdown-about" class=" hidden  absolute z-10 grid-cols-2 w-auto text-sm bg-transparent  border border-gray-800 shadow-md dark:border-gray-700 md:grid-cols-3 " data-popper-placement="bottom" style="position: absolute; inset: 0px auto auto 0px; background: rgb(18, 18, 18); margin: 0px; transform: translate(798px, 97px);" data-popper-reference-hidden="" data-popper-escaped="">
+									<div id="mega-menu-icons-dropdown-about" class=" hidden  absolute z-10 grid-cols-2 w-auto text-sm bg-transparent  border border-gray-800 shadow-md dark:border-gray-700 md:grid-cols-3 " data-popper-placement="bottom" style="position: absolute; inset: 0px auto auto 0px; background: rgb(18, 18, 18); margin: 0px; transform: translate(0px, 610px);" data-popper-reference-hidden="" data-popper-escaped="">
 										<div class="p-4 pb-0 text-gray-900 md:pb-4 dark:text-white">
 										<strong>Follow along</strong>
 											<ul class="space-y-4" aria-labelledby="mega-menu-icons-dropdown-button">
@@ -395,7 +397,7 @@ navbar: false
 												<li>
 													<a href="#" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-white dark:hover:text-white group">
 														<span class="sr-only">The Story</span>
-														<svg class="mr-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" focusable="false" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"></svg>
+														<svg class="mr-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" focusable="false" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" fill-rule="evenodd" d="M12 3.75a6.715 6.715 0 00-3.722 1.118.75.75 0 11-.828-1.25 8.25 8.25 0 0112.8 6.883c0 3.014-.574 5.897-1.62 8.543a.75.75 0 01-1.395-.551A21.69 21.69 0 0018.75 10.5 6.75 6.75 0 0012 3.75zM6.157 5.739a.75.75 0 01.21 1.04A6.715 6.715 0 005.25 10.5c0 1.613-.463 3.12-1.265 4.393a.75.75 0 01-1.27-.8A6.715 6.715 0 003.75 10.5c0-1.68.503-3.246 1.367-4.55a.75.75 0 011.04-.211zM12 7.5a3 3 0 00-3 3c0 3.1-1.176 5.927-3.105 8.056a.75.75 0 11-1.112-1.008A10.459 10.459 0 007.5 10.5a4.5 4.5 0 119 0c0 .547-.022 1.09-.067 1.626a.75.75 0 01-1.495-.123c.041-.495.062-.996.062-1.503a3 3 0 00-3-3zm0 2.25a.75.75 0 01.75.75A15.69 15.69 0 018.97 20.738a.75.75 0 01-1.14-.975A14.19 14.19 0 0011.25 10.5a.75.75 0 01.75-.75zm3.239 5.183a.75.75 0 01.515.927 19.415 19.415 0 01-2.585 5.544.75.75 0 11-1.243-.84 17.912 17.912 0 002.386-5.116.75.75 0 01.927-.515z"></path></svg>
 														The Story
 													</a>
 												</li>
@@ -406,7 +408,7 @@ navbar: false
 												<li>
 													<a href="#" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-white dark:hover:text-white group">
 														<span class="sr-only">The Foundation</span>
-														<svg class="mr-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"></svg>
+														<svg class="mr-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" fill-rule="evenodd" d="M12 2.25a.75.75 0 01.75.75v.756a49.106 49.106 0 019.152 1 .75.75 0 01-.152 1.485h-1.918l2.474 10.124a.75.75 0 01-.375.84A6.723 6.723 0 0118.75 18a6.723 6.723 0 01-3.181-.795.75.75 0 01-.375-.84l2.474-10.124H12.75v13.28c1.293.076 2.534.343 3.697.776a.75.75 0 01-.262 1.453h-8.37a.75.75 0 01-.262-1.453c1.162-.433 2.404-.7 3.697-.775V6.24H6.332l2.474 10.124a.75.75 0 01-.375.84A6.723 6.723 0 015.25 18a6.723 6.723 0 01-3.181-.795.75.75 0 01-.375-.84L4.168 6.241H2.25a.75.75 0 01-.152-1.485 49.105 49.105 0 019.152-1V3a.75.75 0 01.75-.75zm4.878 13.543l1.872-7.662 1.872 7.662h-3.744zm-9.756 0L5.25 8.131l-1.872 7.662h3.744z"></path></svg>
 														The Foundation
 													</a>
 												</li>
@@ -417,7 +419,7 @@ navbar: false
 												<li>
 													<a href="#" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-white dark:hover:text-white group">
 														<span class="sr-only">Press</span>
-														<svg class="mr-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" focusable="false" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"></svg>
+														<svg class="mr-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" focusable="false" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M16.881 4.346A23.112 23.112 0 018.25 6H7.5a5.25 5.25 0 00-.88 10.427 21.593 21.593 0 001.378 3.94c.464 1.004 1.674 1.32 2.582.796l.657-.379c.88-.508 1.165-1.592.772-2.468a17.116 17.116 0 01-.628-1.607c1.918.258 3.76.75 5.5 1.446A21.727 21.727 0 0018 11.25c0-2.413-.393-4.735-1.119-6.904zM18.26 3.74a23.22 23.22 0 011.24 7.51 23.22 23.22 0 01-1.24 7.51c-.055.161-.111.322-.17.482a.75.75 0 101.409.516 24.555 24.555 0 001.415-6.43 2.992 2.992 0 00.836-2.078c0-.806-.319-1.54-.836-2.078a24.65 24.65 0 00-1.415-6.43.75.75 0 10-1.409.516c.059.16.116.321.17.483z"></path></svg>
 														Press
 													</a>
 												</li>
@@ -428,7 +430,7 @@ navbar: false
 												<li>
 													<a href="#" class="flex items-center text-gray-500 dark:text-gray-400 hover:text-white dark:hover:text-white group">
 														<span class="sr-only">Contact</span>
-														<svg class="mr-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"></svg>
+														<svg class="mr-2 w-4 h-4 text-gray-400 dark:text-gray-500 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3.478 2.405a.75.75 0 00-.926.94l2.432 7.905H13.5a.75.75 0 010 1.5H4.984l-2.432 7.905a.75.75 0 00.926.94 60.519 60.519 0 0018.445-8.986.75.75 0 000-1.218A60.517 60.517 0 003.478 2.405z"></path></svg>
 														Contact
 													</a>
 												</li>
@@ -478,7 +480,7 @@ navbar: false
 						</div> <!-- /.page-header-inner -->
 						<!-- Begin scroll down (you can change "data-offset" to set scroll top offset)
 						======================= -->
-						<div class="tt-scroll-down" style="opacity: 1; visibility: inherit;">
+						<div class="tt-scroll-down" style="opacity: 0; visibility: hidden;">
 							<a href="#page-content" class="tt-sd-inner ph-appear" data-offset="0" style="">
 								<div class="tt-sd-arrow">
 									<div class="tt-sd-arrow-inner"></div>
@@ -612,7 +614,7 @@ navbar: false
 												<!-- Begin blog list item image -->
 												<a href="blog-post-classic-sidebar.html" class="bli-image-wrap not-hide-cursor" data-cursor="Read<br>More">
 													<figure class="bli-image">
-														<div class="anim-zoomin-wrap" style="overflow: hidden;"><img src="/images/ph-ario.jpg" data-src="/images/ph-ario.jpg" class="tt-lazy anim-zoomin" alt="Image" style="transform: scale(1.2, 1.2); opacity: 0; visibility: hidden;"></div>
+														<div class="anim-zoomin-wrap" style="overflow: hidden;"><img src="/images/ph-ario.jpg" class="tt-lazy anim-zoomin" alt="Image" style=""></div>
 													</figure>
 												</a>
 												<!-- End blog list item image -->
@@ -644,7 +646,7 @@ navbar: false
 												<!-- Begin blog list item image -->
 												<a href="blog-post-classic-sidebar.html" class="bli-image-wrap not-hide-cursor" data-cursor="Read<br>More">
 													<figure class="bli-image">
-														<div class="anim-zoomin-wrap" style="overflow: hidden;"><img src="/images/ph-ario.jpg" data-src="/images/ph-ario.jpg" class="tt-lazy anim-zoomin" alt="Image" style="transform: scale(1.2, 1.2); opacity: 0; visibility: hidden;"></div>
+														<div class="anim-zoomin-wrap" style="overflow: hidden;"><img src="/images/ph-ario.jpg" class="tt-lazy anim-zoomin" alt="Image" style=""></div>
 													</figure>
 												</a>
 												<!-- End blog list item image -->
@@ -876,9 +878,90 @@ navbar: false
 						<!-- End tt-section -->
 					</div>
 					<!-- End page content -->
-								</div>
+					<footer id="tt-footer" style="">
+						<div class="tt-footer-inner">
+							<!-- Begin footer column
+				========================= -->
+							<div class="footer-col tt-align-center-left">
+								<div class="footer-col-inner">
+									<div class="magnetic-wrap"><div class="magnetic-item subscribe-hide">
+										<button data-tf-slider="bfozRHd0" data-tf-width="550" data-tf-hide-headers="" data-tf-position="left" data-tf-auto-close="1000" data-tf-iframe-props="title=ar.io Site Emails" data-tf-medium="snippet" style="all:unset;display:inline-block;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis; height:50px;cursor:pointer;line-height:50px;text-align:center;margin:0;text-decoration:none;" data-tf-loaded="true">
+											Subscribe <i class="fas fa-paper-plane" style="padding-left: 10px;"></i>
+										</button>
+										<script src="//embed.typeform.com/next/embed.js"></script>
+									</div></div>
+								</div> <!-- /.footer-col-inner -->
+							</div>
+							<!-- Begin footer column -->
+							<!-- Begin footer column
+				========================= -->
+							<div class="footer-col tt-align-center order-m-last">
+								<div class="footer-col-inner">
+									<!-- <div class="tt-copyright text-gray">
+						<a href="https://ardrive.io/tos-and-privacy/" target="_blank" rel="noopener" class="tt-btn tt-btn-link">
+						<span class="tt-btn-icon"><i class="far fa-copyright"></i></span>
+						<div data-hover="T&C">ar.io</div>
+					</a>
+				</div> -->
+									<div class="magnetic-wrap"><div class="magnetic-item">
+										<a href="../terms-and-conditions" target="_blank" rel="noopener" class="tt-btn tt-btn-link">Terms and
+											Conditions</a>
+									</div></div>
+								</div> <!-- /.footer-col-inner -->
+							</div>
+							<!-- Begin footer column -->
+							<!-- Begin footer column
+				========================= -->
+							<div class="footer-col tt-align-center-right">
+								<div class="footer-col-inner">
+									<div class="footer-social">
+										<div class="footer-social-text"><span>Follow</span><i class="fas fa-share-alt"></i></div>
+										<div class="social-buttons">
+											<ul>
+												<li><div class="magnetic-wrap"><a href="https://github.com/ardriveapp" class="magnetic-item not-hide-cursor" target="_blank" rel="noopener"><i class="fab fa-github"></i></a></div></li>
+												<li><div class="magnetic-wrap"><a href="https://discord.gg/HGG52EtTc2" class="magnetic-item not-hide-cursor" target="_blank" rel="noopener"><i class="fab fa-discord"></i></a></div></li>
+												<li><div class="magnetic-wrap"><a href="https://www.instagram.com/ardriveapp/" class="magnetic-item not-hide-cursor" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a></div></li>
+												<li><div class="magnetic-wrap"><a href="https://www.reddit.com/r/ar_io/" class="magnetic-item not-hide-cursor" target="_blank" rel="noopener"><i class="fab fa-reddit"></i></a></div></li>
+												<li><div class="magnetic-wrap"><a href="https://www.tiktok.com/@ardrive.io" class="magnetic-item not-hide-cursor" target="_blank" rel="noopener"><i class="fab fa-tiktok"></i></a></div></li>
+												<li><div class="magnetic-wrap"><a href="https://www.youtube.com/channel/UCL4JlkVcgUjyVz4IlKvbS_g" class="magnetic-item not-hide-cursor" target="_blank" rel="noopener"><i class="fab fa-youtube"></i></a></div></li>
+												<li><div class="magnetic-wrap"><a href="https://www.linkedin.com/company/68614891" class="magnetic-item not-hide-cursor" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a></div></li>
+												<li><div class="magnetic-wrap"><a href="https://twitter.com/ar_io_team" class="magnetic-item not-hide-cursor" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a></div></li>
+											</ul>
+										</div> <!-- /.social-buttons -->
+									</div> <!-- /.footer-social -->
+								</div> <!-- /.footer-col-inner -->
+							</div>
+							<!-- Begin footer column -->
+						</div> <!-- /.tt-section-inner -->
+					</footer>
+					<!-- End tt-footer 1-->
+					<!-- ======================
+				///// Begin tt-footer 2/////
+				=========================== -->
+					<footer id="tt-footer" style="">
+						<div class="tt-footer-inner">
+				<!-- Begin footer column
+				========================= -->
+							<div class="footer-col tt-align-center order-m-last">
+								<div class="footer-col-inner">
+									<!-- <div class="tt-copyright text-gray">
+						<a href="https://ardrive.io/tos-and-privacy/" target="_blank" rel="noopener" class="tt-btn tt-btn-link">
+						<span class="tt-btn-icon"><i class="far fa-copyright"></i></span>
+						<div data-hover="T&C">ar.io</div>
+					</a>
+				</div> -->
+									<div class="tt-copyright">
+										<div class="tt-btn  tt-btn-link" style="cursor: default !important;"> v. 0.1984</div>
+									</div>
+								</div> <!-- /.footer-col-inner -->
+							</div>
+							<!-- Begin footer column -->
+						</div> <!-- /.tt-section-inner -->
+					</footer>
+					<!-- End tt-footer 2-->
+				</div>
 				<!-- End content wrap -->
-			</div><div class="scrollbar-track scrollbar-track-y show" style="display: block;"><div class="scrollbar-thumb scrollbar-thumb-y" style="height: 178.794px; transform: translate3d(0px, 0px, 0px);"></div></div></div>
+			</div><div class="scrollbar-track scrollbar-track-y show" style="display: block;"><div class="scrollbar-thumb scrollbar-thumb-y" style="height: 137.536px; transform: translate3d(0px, 88.8287px, 0px);"></div></div></div>
 			<!-- End scroll container -->
 		</main>
 		<!-- End body inner -->
@@ -909,4 +992,4 @@ navbar: false
 								<script src="../assets/js/theme.js"></script>
 								<script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
 								<script src="https://cdn.tailwindcss.com"></script>
-</body>
+</body></html>
