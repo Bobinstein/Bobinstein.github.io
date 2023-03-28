@@ -1,5 +1,5 @@
 ---
-homepage: true
+homepage: false
 navbar: false
 ---
 <html lang="en">
@@ -130,7 +130,7 @@ navbar: false
 			<!-- *****************************************
 			*********** Begin scroll container ***********
 			****************************************** -->
-			<div id="scroll-container" data-scrollbar="true" tabindex="-1" style="overflow: hidden; outline: none;"><div class="scroll-content" style="transform: translate3d(0px, -600px, 0px);">
+			<div ><div >
 				<!-- ===================
 				///// Begin header /////
 				========================
@@ -959,7 +959,7 @@ navbar: false
 					<!-- End tt-footer 2-->
 				</div>
 				<!-- End content wrap -->
-			</div><div class="scrollbar-track scrollbar-track-y show" style="display: block;"><div class="scrollbar-thumb scrollbar-thumb-y" style="height: 137.536px; transform: translate3d(0px, 88.8287px, 0px);"></div></div></div>
+			</div></div>
 			<!-- End scroll container -->
 		</main>
 		<!-- End body inner -->
