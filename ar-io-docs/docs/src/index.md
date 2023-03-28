@@ -1,11 +1,9 @@
 ---
 homepage: true
 navbar: false
-Footer: false
-guid: false
 ---
-
-<html lang="en"><input type="hidden" id="__yoroi_connector_api_injected_type" value="prod"><head>
+<html lang="en">
+<head>
 	<!-- Title -->
 	<title>Docs | ar.io</title>
 	<!-- Meta -->
@@ -119,7 +117,7 @@ guid: false
 				<div class="ptr-overlay" style="transform-origin: 50% 0%; transform: scale(1, 0);"></div>
 				<div class="ptr-preloader" style="opacity: 0; visibility: hidden;">
 					<div class="ptr-prel-content">
-						<img src="/images/logo-party.gif" class="ptr-prel-image tt-logo-light" alt="Logo">
+						<img src="/docs/images/logo-party.gif" class="ptr-prel-image tt-logo-light" alt="Logo">
 					</div> <!-- /.ptr-prel-content -->
 				</div> <!-- /.ptr-preloader -->
 			</div>
@@ -141,7 +139,7 @@ guid: false
 				<nav class="border-gray-200 px-2 md:px-12 lg:px-12 xl:px-12 py-8" style=" background: #121212; ">
 					<div class="flex flex-wrap justify-between items-center mx-auto ">
 						<a href="../index.html" class="flex items-center">
-							<div class="magnetic-wrap"><img src="/images/elephant-light.png" class="mr-3 h-10 sm:h-9 sm:mr-6 tt-logo-light magnetic-item" alt=""></div>
+							<div class="magnetic-wrap"><img src="/docs/images/elephant-light.png" class="mr-3 h-10 sm:h-9 sm:mr-6 tt-logo-light magnetic-item" alt=""></div>
 						</a>
 						<div class="flex items-center md:order-2">
 							<a href="#" target="_blank" class="tt-btn tt-btn-primary-start margin-top-20 anim-fadeinup" rel="noopener" style="">
@@ -157,7 +155,7 @@ guid: false
 							<ul class="flex flex-col mt-4 text-sm font-medium md:flex-row md:space-x-8 md:mt-0">
 								<li>
 									<button id="mega-menu-icons-dropdown-button" data-dropdown-toggle="mega-menu-icons-dropdown-learn" class="flex justify-between items-center mr-4 py-2 pr-4 pl-3 w-full font-large text-gray-700 border-b border-gray-100 md:w-auto hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0 dark:text-gray-300 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 ">
-										<img src="/images/strips.png" width="25" class="mr-2" alt="">LEARN
+										<img src="/docs/images/strips.png" width="25" class="mr-2" alt="">LEARN
 									</button>
 									<div id="mega-menu-icons-dropdown-learn" class="grid hidden  absolute z-10 grid-cols-2 w-auto text-sm bg-transparent  border border-gray-800 shadow-md dark:border-gray-700 md:grid-cols-3 " data-popper-placement="bottom" style="position: absolute; inset: 0px auto auto 0px; background: rgb(18, 18, 18); margin: 0px; transform: translate(0px, 610px);" data-popper-reference-hidden="" data-popper-escaped="">
 										<div class="p-4 pb-0 text-gray-900 md:pb-4 dark:text-white">
@@ -218,7 +216,7 @@ guid: false
 								</li>
 								<li>
 									<button id="mega-menu-icons-dropdown-button-2" data-dropdown-toggle="mega-menu-icons-dropdown-use" class="flex justify-between items-center mr-4 py-2 pr-4 pl-3 w-full font-large text-gray-700 border-b border-gray-100 md:w-auto hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-white md:p-0 dark:text-gray-300 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 ">
-										<img src="/images/swipe.png" width="25" class="mr-2" alt="">USE
+										<img src="/docs/images/swipe.png" width="25" class="mr-2" alt="">USE
 									</button>
 									<div id="mega-menu-icons-dropdown-use" class="grid hidden  absolute z-10 grid-cols-2 w-auto text-sm bg-transparent  border border-gray-800 shadow-md dark:border-gray-700 md:grid-cols-3 " data-popper-placement="bottom" style="position: absolute; inset: 0px auto auto 0px; background: rgb(18, 18, 18); margin: 0px; transform: translate(0px, 610px);" data-popper-reference-hidden="" data-popper-escaped="">
 										<div class="p-4 pb-0 text-gray-900 md:pb-4 dark:text-white">
@@ -289,7 +287,7 @@ guid: false
 								</li>
 								<li>
 									<button id="mega-menu-icons-dropdown-button" data-dropdown-toggle="mega-menu-icons-dropdown-develop" class="flex justify-between items-center mr-4 py-2 pr-4 pl-3 w-full font-large text-gray-700 border-b border-gray-100 md:w-auto hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-white md:p-0 dark:text-gray-300 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 ">
-										<img src="/images/triangle.png" width="25" class="mr-2" alt="">DEVELOP
+										<img src="/docs/images/triangle.png" width="25" class="mr-2" alt="">DEVELOP
 									</button>
 									<div id="mega-menu-icons-dropdown-develop" class="grid hidden  absolute z-10 grid-cols-2 w-auto text-sm bg-transparent  border border-gray-800 shadow-md dark:border-gray-700 md:grid-cols-3 " data-popper-placement="bottom" style="position: absolute; inset: 0px auto auto 0px; background: rgb(18, 18, 18); margin: 0px; transform: translate(0px, 610px);" data-popper-reference-hidden="" data-popper-escaped="">
 										<div class="p-4 pb-0 text-gray-900 md:pb-4 dark:text-white">
@@ -318,7 +316,7 @@ guid: false
 								</li>
 								<li>
 									<button id="mega-menu-icons-dropdown-button" data-dropdown-toggle="mega-menu-icons-dropdown-engage" class="flex justify-between items-center mr-4 py-2 pr-4 pl-3 w-full font-large text-gray-700 border-b border-gray-100 md:w-auto hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-white md:p-0 dark:text-gray-300 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 ">
-										<img src="/images/plate.png" width="25" class="mr-2" alt="">ENGAGE
+										<img src="/docs/images/plate.png" width="25" class="mr-2" alt="">ENGAGE
 									</button>
 									<div id="mega-menu-icons-dropdown-engage" class="grid hidden  absolute z-10 grid-cols-2 w-auto text-sm bg-transparent  border border-gray-800 shadow-md dark:border-gray-700 md:grid-cols-3 " data-popper-placement="bottom" style="position: absolute; inset: 0px auto auto 0px; background: rgb(18, 18, 18); margin: 0px; transform: translate(0px, 610px);" data-popper-reference-hidden="" data-popper-escaped="">
 										<div class="p-4 pb-0 text-gray-900 md:pb-4 dark:text-white">
@@ -387,7 +385,7 @@ guid: false
 								</li>
 								<li>
 									<button id="mega-menu-icons-dropdown-button" data-dropdown-toggle="mega-menu-icons-dropdown-about" class="flex justify-between items-center mr-4 py-2 pr-4 pl-3 w-full font-large text-gray-700 border-b border-gray-100 md:w-auto hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-white md:p-0 dark:text-gray-300 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 ">
-										<img src="/images/circle.png" width="25" class="mr-2" alt="">ABOUT
+										<img src="/docs/images/circle.png" width="25" class="mr-2" alt="">ABOUT
 									</button>
 									<div id="mega-menu-icons-dropdown-about" class=" hidden  absolute z-10 grid-cols-2 w-auto text-sm bg-transparent  border border-gray-800 shadow-md dark:border-gray-700 md:grid-cols-3 " data-popper-placement="bottom" style="position: absolute; inset: 0px auto auto 0px; background: rgb(18, 18, 18); margin: 0px; transform: translate(0px, 610px);" data-popper-reference-hidden="" data-popper-escaped="">
 										<div class="p-4 pb-0 text-gray-900 md:pb-4 dark:text-white">
@@ -518,7 +516,7 @@ guid: false
 												<!-- Begin blog list item image -->
 												<a href="blog-post-classic-sidebar.html" class="bli-image-wrap not-hide-cursor" data-cursor="Read<br>More">
 													<figure class="bli-image">
-														<div class="anim-zoomin-wrap" style="overflow: hidden;"><img src="/images/ph-ario.jpg" class="tt-lazy anim-zoomin" alt="Image" style=""></div>
+														<div class="anim-zoomin-wrap" style="overflow: hidden;"><img src="/docs/images/ph-ario.jpg" class="tt-lazy anim-zoomin" alt="Image" style=""></div>
 													</figure>
 												</a>
 												<!-- End blog list item image -->
@@ -550,7 +548,7 @@ guid: false
 												<!-- Begin blog list item image -->
 												<a href="blog-post-classic-sidebar.html" class="bli-image-wrap not-hide-cursor" data-cursor="Read<br>More">
 													<figure class="bli-image">
-														<div class="anim-zoomin-wrap" style="overflow: hidden;"><img src="/images/ph-ario.jpg" class="tt-lazy anim-zoomin" alt="Image" style=""></div>
+														<div class="anim-zoomin-wrap" style="overflow: hidden;"><img src="/docs/images/ph-ario.jpg" class="tt-lazy anim-zoomin" alt="Image" style=""></div>
 													</figure>
 												</a>
 												<!-- End blog list item image -->
@@ -582,7 +580,7 @@ guid: false
 												<!-- Begin blog list item image -->
 												<a href="blog-post-classic-sidebar.html" class="bli-image-wrap not-hide-cursor" data-cursor="Read<br>More">
 													<figure class="bli-image">
-														<div class="anim-zoomin-wrap" style="overflow: hidden;"><img src="/images/ph-ario.jpg" class="tt-lazy anim-zoomin" alt="Image" style=""></div>
+														<div class="anim-zoomin-wrap" style="overflow: hidden;"><img src="/docs/images/ph-ario.jpg" class="tt-lazy anim-zoomin" alt="Image" style=""></div>
 													</figure>
 												</a>
 												<!-- End blog list item image -->
@@ -614,7 +612,7 @@ guid: false
 												<!-- Begin blog list item image -->
 												<a href="blog-post-classic-sidebar.html" class="bli-image-wrap not-hide-cursor" data-cursor="Read<br>More">
 													<figure class="bli-image">
-														<div class="anim-zoomin-wrap" style="overflow: hidden;"><img src="/images/ph-ario.jpg" class="tt-lazy anim-zoomin" alt="Image" style=""></div>
+														<div class="anim-zoomin-wrap" style="overflow: hidden;"><img src="/docs/images/ph-ario.jpg" class="tt-lazy anim-zoomin" alt="Image" style=""></div>
 													</figure>
 												</a>
 												<!-- End blog list item image -->
@@ -646,7 +644,7 @@ guid: false
 												<!-- Begin blog list item image -->
 												<a href="blog-post-classic-sidebar.html" class="bli-image-wrap not-hide-cursor" data-cursor="Read<br>More">
 													<figure class="bli-image">
-														<div class="anim-zoomin-wrap" style="overflow: hidden;"><img src="/images/ph-ario.jpg" class="tt-lazy anim-zoomin" alt="Image" style=""></div>
+														<div class="anim-zoomin-wrap" style="overflow: hidden;"><img src="/docs/images/ph-ario.jpg" class="tt-lazy anim-zoomin" alt="Image" style=""></div>
 													</figure>
 												</a>
 												<!-- End blog list item image -->
@@ -992,4 +990,5 @@ guid: false
 								<script src="../assets/js/theme.js"></script>
 								<script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
 								<script src="https://cdn.tailwindcss.com"></script>
-</body></html>
+</body>
+</html>
