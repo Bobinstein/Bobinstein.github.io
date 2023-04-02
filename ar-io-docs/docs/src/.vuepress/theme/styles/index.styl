@@ -4,30 +4,17 @@
  * ref：https://v1.vuepress.vuejs.org/config/#index-styl
  */
 
-
-html, body, .page, .header, .sidebar, .theme-container, .open, .sidebar-links, .sidebar-group, .sidebar-heading, .sidebar-link, .navbar, nav, .links, .search-box, .nav-links, header, .nav-link, .nav-dropdown, .dropdown-item
-	color: white !important
-	background: #171717!important
-
-
+// default from vuepress
 .home .hero img
   max-width 450px!important
 
+// sets background for most items
+body, .page, .theme-container, .sidebar, .sidebar-group, nav, .navbar, .nav-dropdown, .search-box, .links, header
+	background: #171717 !important
 
 
-body 
-	background: #171717
-	min-height: 100vh
-	max-width: 100%
+// side bar css
+// side bar container
+.sidebar
+	border-right: none
 
-
-#tt-footer 
-	margin: auto
-	max-width: 80%
-
-
-
-.sidebar 
-	background: transparent
-	width: 20%
-	

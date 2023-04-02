@@ -18,7 +18,7 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/config/#head
    */
   head: [
-    ["meta", { name: "theme-color", content: "#3eaf7c" }],
+    ["meta", { name: "theme-color", content: "white" }],
     ["meta", { name: "apple-mobile-web-app-capable", content: "yes" }],
     [
       "meta",
@@ -41,6 +41,38 @@ module.exports = {
     smoothScroll: true,
     initialOpenGroupIndex: -1,
     sidebar: {
+      // sidebar for docs landing page
+      "/docs/": [
+        {
+          initialOpenGroupIndex: -1,
+          title: "Ardrive",
+          children: [
+            {
+              title: "Ardrive-cli",
+              path: "/docs/ardrive/ardrive-cli/",
+            },
+            {
+              title: 'Ardrive Core SDK',
+              path: '/docs/ardrive/ardrive-core/'
+            }
+          ],
+        },
+        {
+          initialOpenGroupIndex: -1,
+          title: 'Ar.io',
+          children: [
+            {
+              title: 'ar.io placeholder',
+              path: '/docs/ar-io/placeholder/'
+            },
+            {
+              title: 'ar.io need to add stuff',
+              path: '/docs/ar-io/need-to-add'
+            }
+          ]
+        }
+      ],
+      // homepage and fallback
       "/": [
         {
           title: "Docs",
@@ -110,14 +142,19 @@ module.exports = {
               { text: "Core SDK", link: "/docs/ardrive/ardrive-core/" },
             ],
           },
-          {text: 'ar.io', items: [
-            {
-              text: 'Placeholder', link: ''
-            },
-            {
-              text: 'Need to add stuff', link: ''
-            }
-          ]}
+          {
+            text: "ar.io",
+            items: [
+              {
+                text: "Placeholder",
+                link: "",
+              },
+              {
+                text: "Need to add stuff",
+                link: "",
+              },
+            ],
+          },
         ],
       },
       { text: "Tutorials", link: "/tutorials/" },

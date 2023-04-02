@@ -8,6 +8,7 @@ Footer: false
 Sit labore est qui velit mollit ea eiusmod duis fugiat nulla deserunt dolor magna.
 
 <center><img src="/docs/images/ph-ario.jpg"></center>
+
 ## Sub header
 Id fugiat elit esse do cillum tempor duis aliquip dolore aute adipisicing.
 
