@@ -41,6 +41,30 @@ module.exports = {
     smoothScroll: true,
     initialOpenGroupIndex: -1,
     sidebar: {
+      // sidebar for standards landing page
+      '/standards/': [
+        {
+          initialOpenGroupIndex: -1,
+          title: 'Nothing here',
+          collapsable: false
+        },
+        {
+          title: 'maybe later',
+          collapsable: false
+        }
+      ],
+      // sidebar for tutorials landing page
+      '/tutorials/': [
+        {
+          initialOpenGroupIndex: -1,
+          title: 'filler',
+          collapsable: false
+        },
+        {
+          title: 'Placeholder',
+          collapsable: false
+        }
+      ],
       // sidebar for docs landing page
       "/docs/": [
         {
@@ -134,6 +158,7 @@ module.exports = {
     nav: [
       {
         text: "docs",
+        link: '/docs/',
         items: [
           {
             text: "Ardrive",
