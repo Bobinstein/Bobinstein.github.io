@@ -67,7 +67,7 @@ module.exports = {
             },
             {
               title: 'ar.io need to add stuff',
-              path: '/docs/ar-io/need-to-add'
+              path: '/docs/ar-io/need-to-add/'
             }
           ]
         }
@@ -97,8 +97,8 @@ module.exports = {
             {
               title: "Ar.io",
               children: [
-                { title: "ar.io placeholder", collapsable: false },
-                { title: "need to add stuff", collapsable: false },
+                { title: "ar.io placeholder", collapsable: false, link: '/' },
+                { title: "need to add stuff", collapsable: false, link: '/' },
               ],
             },
           ],
@@ -147,11 +147,11 @@ module.exports = {
             items: [
               {
                 text: "Placeholder",
-                link: "",
+                link: "/",
               },
               {
                 text: "Need to add stuff",
-                link: "",
+                link: "/",
               },
             ],
           },
