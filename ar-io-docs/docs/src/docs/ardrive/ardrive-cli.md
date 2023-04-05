@@ -1,5 +1,7 @@
 ---
 sidebar: auto
+prev: false
+next: ./ardrive-core
 ---
 
 

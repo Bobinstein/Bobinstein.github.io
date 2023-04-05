@@ -41,61 +41,61 @@ module.exports = {
     smoothScroll: true,
     initialOpenGroupIndex: -1,
     sidebar: {
-      // sidebar for standards landing page
-      '/standards/': [
-        {
-          initialOpenGroupIndex: -1,
-          title: 'Nothing here',
-          collapsable: false
-        },
-        {
-          title: 'maybe later',
-          collapsable: false
-        }
-      ],
-      // sidebar for tutorials landing page
-      '/tutorials/': [
-        {
-          initialOpenGroupIndex: -1,
-          title: 'filler',
-          collapsable: false
-        },
-        {
-          title: 'Placeholder',
-          collapsable: false
-        }
-      ],
-      // sidebar for docs landing page
-      "/docs/": [
-        {
-          initialOpenGroupIndex: -1,
-          title: "Ardrive",
-          children: [
-            {
-              title: "Ardrive-cli",
-              path: "/docs/ardrive/ardrive-cli/",
-            },
-            {
-              title: 'Ardrive Core SDK',
-              path: '/docs/ardrive/ardrive-core/'
-            }
-          ],
-        },
-        {
-          initialOpenGroupIndex: -1,
-          title: 'Ar.io',
-          children: [
-            {
-              title: 'ar.io placeholder',
-              path: '/docs/ar-io/placeholder/'
-            },
-            {
-              title: 'ar.io need to add stuff',
-              path: '/docs/ar-io/need-to-add/'
-            }
-          ]
-        }
-      ],
+      // // sidebar for standards landing page
+      // '/standards/': [
+      //   {
+      //     initialOpenGroupIndex: -1,
+      //     title: 'Nothing here',
+      //     collapsable: false
+      //   },
+      //   {
+      //     title: 'maybe later',
+      //     collapsable: false
+      //   }
+      // ],
+      // // sidebar for tutorials landing page
+      // '/tutorials/': [
+      //   {
+      //     initialOpenGroupIndex: -1,
+      //     title: 'filler',
+      //     collapsable: false
+      //   },
+      //   {
+      //     title: 'Placeholder',
+      //     collapsable: false
+      //   }
+      // ],
+      // // sidebar for docs landing page
+      // "/docs/": [
+      //   {
+      //     initialOpenGroupIndex: -1,
+      //     title: "Ardrive",
+      //     children: [
+      //       {
+      //         title: "Ardrive-cli",
+      //         path: "/docs/ardrive/ardrive-cli",
+      //       },
+      //       {
+      //         title: 'Ardrive Core SDK',
+      //         path: '/docs/ardrive/ardrive-core'
+      //       }
+      //     ],
+      //   },
+      //   {
+      //     initialOpenGroupIndex: -1,
+      //     title: 'Ar.io',
+      //     children: [
+      //       {
+      //         title: 'ar.io placeholder',
+      //         path: '/docs/ar-io/placeholder'
+      //       },
+      //       {
+      //         title: 'ar.io need to add stuff',
+      //         path: '/docs/ar-io/need-to-add'
+      //       }
+      //     ]
+      //   }
+      // ],
       // homepage and fallback
       "/": [
         {
@@ -109,20 +109,26 @@ module.exports = {
                 {
                   initialOpenGroupIndex: -1,
                   title: "Ardrive-CLI",
-                  path: "/docs/ardrive/ardrive-cli/",
+                  path: "/docs/ardrive/ardrive-cli",
                 },
                 {
                   initialOpenGroupIndex: -1,
                   title: "Ardrive Core SDK",
-                  path: "/docs/ardrive/ardrive-core/",
+                  path: "/docs/ardrive/ardrive-core",
                 },
               ],
             },
             {
               title: "Ar.io",
               children: [
-                { title: "ar.io placeholder", collapsable: false, link: '/' },
-                { title: "need to add stuff", collapsable: false, link: '/' },
+                {
+                  title: "ar.io placeholder",
+                  path: "/docs/ar-io/placeholder",
+                },
+                {
+                  title: "ar.io need to add stuff",
+                  path: "/docs/ar-io/need-to-add",
+                },
               ],
             },
           ],
@@ -133,10 +139,12 @@ module.exports = {
             {
               title: "filler",
               collapsable: false,
+              path: "/tutorials/filler",
             },
             {
               title: "Placeholder",
               collapsable: false,
+              path: "/tutorials/placeholder",
             },
           ],
         },
@@ -146,10 +154,12 @@ module.exports = {
             {
               title: "Nothing here",
               collapsable: false,
+              path: "/standards/nothing-here",
             },
             {
               title: "maybe later",
               collapsable: false,
+              path: "/standards/maybe-later",
             },
           ],
         },
@@ -158,13 +168,13 @@ module.exports = {
     nav: [
       {
         text: "docs",
-        link: '/docs/',
+        link: "/docs/",
         items: [
           {
             text: "Ardrive",
             items: [
-              { text: "CLI", link: "/docs/ardrive/ardrive-cli/" },
-              { text: "Core SDK", link: "/docs/ardrive/ardrive-core/" },
+              { text: "CLI", link: "/docs/ardrive/ardrive-cli" },
+              { text: "Core SDK", link: "/docs/ardrive/ardrive-core" },
             ],
           },
           {
@@ -172,18 +182,42 @@ module.exports = {
             items: [
               {
                 text: "Placeholder",
-                link: "/",
+                link: "/docs/ar-io/placeholder",
               },
               {
                 text: "Need to add stuff",
-                link: "/",
+                link: "/docs/ar-io/need-to-add",
               },
             ],
           },
         ],
       },
-      { text: "Tutorials", link: "/tutorials/" },
-      { text: "Standards", link: "/standards/" },
+      {
+        text: "Tutorials",
+        items: [
+          {
+            text: "filler",
+            link: "/tutorials/filler",
+          },
+          {
+            text: "placeholder",
+            link: "/tutorials/placeholder",
+          },
+        ],
+      },
+      {
+        text: "Standards",
+        items: [
+          {
+            text: "maybe-later",
+            link: "/standards/maybe-later",
+          },
+          {
+            text: "nothing here",
+            link: "/standards/nothing-here",
+          },
+        ],
+      },
     ],
   },
 

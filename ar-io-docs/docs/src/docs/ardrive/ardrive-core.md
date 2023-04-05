@@ -1,5 +1,7 @@
 ---
 sidebar: auto
+prev: ./ardrive-cli
+next: false
 ---
 
 
