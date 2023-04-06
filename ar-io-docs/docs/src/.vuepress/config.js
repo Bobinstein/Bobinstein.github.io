@@ -129,8 +129,24 @@ module.exports = {
     },
     nav: [
       {
+        text: 'Concepts',
+        items: [
+          {
+          text: 'Overview',
+          link: '/concepts/overview'
+          },
+          {
+            text: 'Glossary',
+            link: '/concepts/glossary'
+          },
+          {
+            text: 'White Paper',
+            link: 'https://youtu.be/dQw4w9WgXcQ'
+          }
+        ]
+      },
+      {
         text: "docs",
-        link: "/docs/",
         items: [
           {
             text: "Ardrive",
