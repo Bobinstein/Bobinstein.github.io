@@ -41,63 +41,25 @@ module.exports = {
     smoothScroll: true,
     initialOpenGroupIndex: -1,
     sidebar: {
-      // // sidebar for standards landing page
-      // '/standards/': [
-      //   {
-      //     initialOpenGroupIndex: -1,
-      //     title: 'Nothing here',
-      //     collapsable: false
-      //   },
-      //   {
-      //     title: 'maybe later',
-      //     collapsable: false
-      //   }
-      // ],
-      // // sidebar for tutorials landing page
-      // '/tutorials/': [
-      //   {
-      //     initialOpenGroupIndex: -1,
-      //     title: 'filler',
-      //     collapsable: false
-      //   },
-      //   {
-      //     title: 'Placeholder',
-      //     collapsable: false
-      //   }
-      // ],
-      // // sidebar for docs landing page
-      // "/docs/": [
-      //   {
-      //     initialOpenGroupIndex: -1,
-      //     title: "Ardrive",
-      //     children: [
-      //       {
-      //         title: "Ardrive-cli",
-      //         path: "/docs/ardrive/ardrive-cli",
-      //       },
-      //       {
-      //         title: 'Ardrive Core SDK',
-      //         path: '/docs/ardrive/ardrive-core'
-      //       }
-      //     ],
-      //   },
-      //   {
-      //     initialOpenGroupIndex: -1,
-      //     title: 'Ar.io',
-      //     children: [
-      //       {
-      //         title: 'ar.io placeholder',
-      //         path: '/docs/ar-io/placeholder'
-      //       },
-      //       {
-      //         title: 'ar.io need to add stuff',
-      //         path: '/docs/ar-io/need-to-add'
-      //       }
-      //     ]
-      //   }
-      // ],
-      // homepage and fallback
       "/": [
+        {
+          title: 'Concepts',
+          initialOpenGroupIndex: -1,
+          children: [
+            {
+              title: 'Overview',
+              path: '/concepts/overview'
+            },
+            {
+              title: 'Glossary',
+              path: '/concepts/glossary'
+            },
+            {
+              title: 'White Paper',
+              path: 'https://youtu.be/dQw4w9WgXcQ'
+            }
+          ]
+        },
         {
           title: "Docs",
           sidebarDepth: 0,
