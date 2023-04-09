@@ -1,7 +1,7 @@
 ---
 homepage: true
 sidebar: true
-Footer: false
+Footer: true
 ---
 
 # Hello

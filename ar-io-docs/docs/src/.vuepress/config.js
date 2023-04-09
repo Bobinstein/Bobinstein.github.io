@@ -1,10 +1,16 @@
 const { description } = require("../../package");
+// sidebar config imports
+const ardrive_cli_sidebar_config = require('./sidebar_configs/ardrive_cli_config')
+const default_sidebar_config = require('./sidebar_configs/default_config')
+
+// nav bar config imports
+const default_navbar_config = require('./navbar_configs/default_config')
 
 module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: "Ar.io Docs",
+  title: "Ar.io",
   base: "/docs/",
 
   /**
@@ -40,163 +46,16 @@ module.exports = {
     logo: "/images/elephant-light.png",
     smoothScroll: true,
     initialOpenGroupIndex: -1,
+    // navbar: {
+    //   custom: true,
+    //   component: '@theme/global-components/Navbar.vue'
+    // },
     sidebar: {
-      "/": [
-        {
-          title: 'Concepts',
-          initialOpenGroupIndex: -1,
-          children: [
-            {
-              title: 'Overview',
-              path: '/concepts/overview'
-            },
-            {
-              title: 'Glossary',
-              path: '/concepts/glossary'
-            },
-            {
-              title: 'White Paper',
-              path: 'https://youtu.be/dQw4w9WgXcQ'
-            }
-          ]
-        },
-        {
-          title: "Docs",
-          sidebarDepth: 0,
-          initialOpenGroupIndex: -1,
-          children: [
-            {
-              title: "Ardrive",
-              children: [
-                {
-                  initialOpenGroupIndex: -1,
-                  title: "Ardrive-CLI",
-                  path: "/docs/ardrive/ardrive-cli",
-                },
-                {
-                  initialOpenGroupIndex: -1,
-                  title: "Ardrive Core SDK",
-                  path: "/docs/ardrive/ardrive-core",
-                },
-              ],
-            },
-            {
-              title: "Ar.io",
-              children: [
-                {
-                  title: "ar.io placeholder",
-                  path: "/docs/ar-io/placeholder",
-                },
-                {
-                  title: "ar.io need to add stuff",
-                  path: "/docs/ar-io/need-to-add",
-                },
-              ],
-            },
-          ],
-        },
-        {
-          title: "Tutorials",
-          children: [
-            {
-              title: "filler",
-              collapsable: false,
-              path: "/tutorials/filler",
-            },
-            {
-              title: "Placeholder",
-              collapsable: false,
-              path: "/tutorials/placeholder",
-            },
-          ],
-        },
-        {
-          title: "Standards",
-          children: [
-            {
-              title: "Nothing here",
-              collapsable: false,
-              path: "/standards/nothing-here",
-            },
-            {
-              title: "maybe later",
-              collapsable: false,
-              path: "/standards/maybe-later",
-            },
-          ],
-        },
-      ],
+      // ardrive cli broken up
+      "/docs/ardrive/broken-up/": ardrive_cli_sidebar_config,
+      "/": default_sidebar_config,
     },
-    nav: [
-      {
-        text: 'Concepts',
-        items: [
-          {
-          text: 'Overview',
-          link: '/concepts/overview'
-          },
-          {
-            text: 'Glossary',
-            link: '/concepts/glossary'
-          },
-          {
-            text: 'White Paper',
-            link: 'https://youtu.be/dQw4w9WgXcQ'
-          }
-        ]
-      },
-      {
-        text: "docs",
-        items: [
-          {
-            text: "Ardrive",
-            items: [
-              { text: "CLI", link: "/docs/ardrive/ardrive-cli" },
-              { text: "Core SDK", link: "/docs/ardrive/ardrive-core" },
-            ],
-          },
-          {
-            text: "ar.io",
-            items: [
-              {
-                text: "Placeholder",
-                link: "/docs/ar-io/placeholder",
-              },
-              {
-                text: "Need to add stuff",
-                link: "/docs/ar-io/need-to-add",
-              },
-            ],
-          },
-        ],
-      },
-      {
-        text: "Tutorials",
-        items: [
-          {
-            text: "filler",
-            link: "/tutorials/filler",
-          },
-          {
-            text: "placeholder",
-            link: "/tutorials/placeholder",
-          },
-        ],
-      },
-      {
-        text: "Standards",
-        items: [
-          {
-            text: "maybe-later",
-            link: "/standards/maybe-later",
-          },
-          {
-            text: "nothing here",
-            link: "/standards/nothing-here",
-          },
-        ],
-      },
-    ],
+    nav: default_navbar_config,
   },
 
   /**
