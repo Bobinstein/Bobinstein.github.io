@@ -31,7 +31,7 @@
     >
       <a class="nav-link-right" href="/support">Support</a>
       <a class="nav-link-right" href="https://discord.gg/7zUPfN4D6g">Discord</a>
-      <button @click="isLight = !isLight">
+      <button @click="toggleLightMode" aria-label="Toggle light mode" class="toggle-button">
       <img  src='/docs/images/eva-sun.svg' class="theme-toggle" >
       </button>
       <AlgoliaSearchBox v-if="isAlgoliaSearch" :options="algolia" />
@@ -67,6 +67,13 @@ export default {
       linksWrapMaxWidth: null,
       isLight: false,
     };
+  },
+
+  methods: {
+    toggleLightMode() {
+      this.isLight = !this.isLight;
+      console.log(this.isLight)
+    }
   },
 
   computed: {
@@ -112,6 +119,22 @@ function css(el, property) {
 <style lang="stylus">
 $navbar-vertical-padding = 0.7rem
 $navbar-horizontal-padding = 1.5rem
+
+.toggle-button
+  border 2px solid red
+  background-color transparent
+  padding 0
+  margin 0
+  display inline-block
+  overflow hidden
+  // text-indent -9999px
+  white-space nowrap
+  width 2em
+  height auto
+  cursor pointer
+.theme-toggle
+  background-color white
+  fill white
 
 .navbar
   padding $navbar-vertical-padding $navbar-horizontal-padding
