@@ -31,6 +31,7 @@
     >
       <a class="nav-link-right" href="/support">Support</a>
       <a class="nav-link-right" href="https://discord.gg/7zUPfN4D6g">Discord</a>
+      <a class="nav-link-right" href="https://github.com/ardriveapp"><img src="/docs/images/Github.svg"></a>
       <button @click="toggleLightMode" aria-label="Toggle light mode" class="toggle-button">
       <img  src='/docs/images/eva-sun.svg' class="theme-toggle" >
       </button>
