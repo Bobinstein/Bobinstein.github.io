@@ -31,10 +31,17 @@
     >
       <a class="nav-link-right" href="/support">Support</a>
       <a class="nav-link-right" href="https://discord.gg/7zUPfN4D6g">Discord</a>
-      <a class="nav-link-right" href="https://github.com/ardriveapp"><img src="/docs/images/Github.svg"></a>
-      <button @click="toggleLightMode" aria-label="Toggle light mode" class="toggle-button">
-      <img  src='/docs/images/eva-sun.svg' class="theme-toggle" >
-      </button>
+      <a class="nav-link-right" href="https://github.com/ardriveapp"
+        ><img class="github" src="/docs/images/Github.svg"
+      /></a>
+      <!-- <button @click="toggleLightMode" aria-label="Toggle light mode" class="toggle-button"> -->
+      <img
+        src="/docs/images/eva-sun.svg"
+        class="theme-toggle"
+        @click="toggleLightMode"
+        
+      />
+      <!-- </button> -->
       <AlgoliaSearchBox v-if="isAlgoliaSearch" :options="algolia" />
 
       <SearchBox
@@ -73,7 +80,8 @@ export default {
   methods: {
     toggleLightMode() {
       this.isLight = !this.isLight;
-      console.log(this.isLight)
+      console.log(this.isLight);
+      return this.isLight
     }
   },
 
@@ -83,6 +91,13 @@ export default {
         this.$themeLocaleConfig.algolia || this.$site.themeConfig.algolia || {}
       );
     },
+
+    themeToggleStyle() {
+      return `
+        border ${this.isLight ? "2px solid red" : "none"};
+      `;
+    },
+  
 
     isAlgoliaSearch() {
       return this.algolia && this.algolia.apiKey && this.algolia.indexName;
@@ -121,11 +136,13 @@ function css(el, property) {
 $navbar-vertical-padding = 0.7rem
 $navbar-horizontal-padding = 1.5rem
 
-.toggle-button
-  border 2px solid red
+
+.theme-toggle  
+  // border: $themeToggleStyle
+  color white
   background-color transparent
-  padding 0
-  margin 0
+  padding-right 2em
+  margin auto
   display inline-block
   overflow hidden
   // text-indent -9999px
@@ -133,9 +150,11 @@ $navbar-horizontal-padding = 1.5rem
   width 2em
   height auto
   cursor pointer
-.theme-toggle
-  background-color white
-  fill white
+ 
+.github
+  color white 
+  margin auto
+  // border 2px solid red
 
 .navbar
   padding $navbar-vertical-padding $navbar-horizontal-padding
@@ -167,6 +186,7 @@ $navbar-horizontal-padding = 1.5rem
       vertical-align top
 .nav-link-right
     padding-right 1em
+    color white
 
 @media (max-width: $MQMobile)
   .navbar
