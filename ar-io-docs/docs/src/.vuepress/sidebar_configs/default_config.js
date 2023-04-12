@@ -45,13 +45,13 @@ module.exports = [
           title: "Ar.io",
           children: [
             {
-              title: "ar.io placeholder",
-              path: "/docs/ar-io/placeholder",
+              title: "Arweave Gateway",
+              path: "/docs/ar-io/arweave-gateway",
             },
-            {
-              title: "ar.io need to add stuff",
-              path: "/docs/ar-io/need-to-add",
-            },
+            // {
+            //   title: "ar.io need to add stuff",
+            //   path: "/docs/ar-io/need-to-add",
+            // },
           ],
         },
       ],
@@ -71,19 +71,19 @@ module.exports = [
         },
       ],
     },
-    {
-      title: "Standards",
-      children: [
-        {
-          title: "Nothing here",
-          collapsable: false,
-          path: "/standards/nothing-here",
-        },
-        {
-          title: "maybe later",
-          collapsable: false,
-          path: "/standards/maybe-later",
-        },
-      ],
-    },
+    // {
+    //   title: "Standards",
+    //   children: [
+    //     {
+    //       title: "Nothing here",
+    //       collapsable: false,
+    //       path: "/standards/nothing-here",
+    //     },
+    //     {
+    //       title: "maybe later",
+    //       collapsable: false,
+    //       path: "/standards/maybe-later",
+    //     },
+    //   ],
+    // },
   ]

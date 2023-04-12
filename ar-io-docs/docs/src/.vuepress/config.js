@@ -38,6 +38,7 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
+    colorMode: 'dark',
     repo: "",
     editLinks: false,
     docsDir: "",

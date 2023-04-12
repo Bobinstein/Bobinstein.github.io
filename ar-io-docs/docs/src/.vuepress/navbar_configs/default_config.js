@@ -30,13 +30,13 @@ module.exports =
       text: "ar.io",
       items: [
         {
-          text: "Placeholder",
-          link: "/docs/ar-io/placeholder",
+          text: "Arweave Gateway",
+          link: "/docs/ar-io/arweave-gateway",
         },
-        {
-          text: "Need to add stuff",
-          link: "/docs/ar-io/need-to-add",
-        },
+        // {
+        //   text: "Need to add stuff",
+        //   link: "/docs/ar-io/need-to-add",
+        // },
       ],
     },
   ],
@@ -54,17 +54,17 @@ module.exports =
     },
   ],
 },
-{
-  text: "Standards",
-  items: [
-    {
-      text: "maybe-later",
-      link: "/standards/maybe-later",
-    },
-    {
-      text: "nothing here",
-      link: "/standards/nothing-here",
-    },
-  ],
-}
+// {
+//   text: "Standards",
+//   items: [
+//     {
+//       text: "maybe-later",
+//       link: "/standards/maybe-later",
+//     },
+//     {
+//       text: "nothing here",
+//       link: "/standards/nothing-here",
+//     },
+//   ],
+// }
 ]
