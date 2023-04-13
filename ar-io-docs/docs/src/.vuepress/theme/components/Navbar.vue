@@ -103,6 +103,7 @@ export default {
     toggleLightMode() {
       this.isLight = !this.isLight;
       console.log(this.isLight);
+      $textColor = 'red'
       return this.isLight;
     },
   },
@@ -116,7 +117,7 @@ export default {
 
     themeToggleStyle() {
       return `
-        border ${this.isLight ? "2px solid red" : "none"};
+        $textColor ${this.isLight ? "2px solid red" : "none"};
       `;
     },
 
@@ -174,7 +175,7 @@ $navbar-horizontal-padding = 1.5rem
   cursor pointer
 
 .github-logo
-  color white
+  color $textColor
   margin none
   width 2em
   height auto
@@ -199,7 +200,7 @@ $navbar-horizontal-padding = 1.5rem
   .links
     padding-left 1.5rem
     box-sizing border-box
-    background-color white
+    background-color $bgColor
     white-space nowrap
     font-size 0.9rem
     position absolute
@@ -212,7 +213,7 @@ $navbar-horizontal-padding = 1.5rem
       vertical-align top
 .nav-link-right
     padding-right 1em
-    color white
+    color $textColor
     // border 2px solid blue
 
 @media (max-width: $MQMobile)

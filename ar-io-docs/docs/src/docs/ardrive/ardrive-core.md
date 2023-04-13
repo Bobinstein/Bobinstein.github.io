@@ -1,7 +1,6 @@
 ---
-sidebar: auto
 prev: ./ardrive-cli
-next: false
+next: ./price-calculator
 ---
 
 
