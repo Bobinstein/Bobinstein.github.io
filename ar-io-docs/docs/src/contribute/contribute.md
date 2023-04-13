@@ -198,4 +198,6 @@ git push
 
 Once you have pushed your changes to your own repository, go back to the github page for <a style="text-decoration: underline" href="https://github.com/Bobinstein/Bobinstein.github.io"> the original repository</a> and click on the 'Pull requests' option.
 
+<img src="/docs/images/contribute/Pull-request-dark.png"/>
+
 This page will show a summary of the changes you made from the original. Then click the green "New Pull Request" button. This will open the 'Comparing Changes' page which will summarize the changes you made from the original. Github will automatically detect if there have been any changes to the main repository since you forked your code that will prevent a successful merge. If there are no issues, click "Create Pull Request", add a title and description, and then click "Create Pull Request" again to submit a request for review.
