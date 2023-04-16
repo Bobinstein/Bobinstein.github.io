@@ -22,7 +22,7 @@ module.exports = [
       {
         text: "Ardrive",
         items: [
-          { text: "CLI", link: "/docs/ardrive/ardrive-cli" },
+          { text: "CLI", link: "/docs/ardrive/ardrive-cli/" },
           { text: "Core SDK", link: "/docs/ardrive/ardrive-core" },
           { text: "Price Calculator", link: "/docs/ardrive/price-calculator" },
         ],
@@ -66,6 +66,6 @@ module.exports = [
   // }
   {
     text: "Contribute",
-    link: "/contribute/contribute",
+    link: "/contribute/prerequisites",
   },
 ];

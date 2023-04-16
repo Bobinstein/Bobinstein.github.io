@@ -1,5 +1,6 @@
 ---
 sidebarDepth: 1
+toc: true
 ---
 # Using the CLI
 

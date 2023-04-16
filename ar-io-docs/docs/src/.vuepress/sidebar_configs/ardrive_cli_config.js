@@ -1,22 +1,22 @@
 module.exports = [
     {
       title: 'Intro',
-      path: '/docs/ardrive/broken-up/intro'
+      path: '/docs/ardrive/ardrive-cli/intro'
     },
     {
       title: 'Getting Started',
-      path: '/docs/ardrive/broken-up/getting-started',
+      path: '/docs/ardrive/ardrive-cli/getting-started',
     },
     {
       title: 'Using the CLI',
-      path: '/docs/ardrive/broken-up/using-the-cli'
+      path: '/docs/ardrive/ardrive-cli/using-the-cli'
     },
     {
       title: 'All Commands',
-      path: '/docs/ardrive/broken-up/all-commands'
+      path: '/docs/ardrive/ardrive-cli/all-commands'
     },
     {
       title: 'Getting Help',
-      path: '/docs/ardrive/broken-up/getting-help'
+      path: '/docs/ardrive/ardrive-cli/getting-help'
     }
   ]

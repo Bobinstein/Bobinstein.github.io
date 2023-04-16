@@ -1,9 +1,5 @@
 module.exports = [
   {
-    title: "Alternate display for docs",
-    path: "/docs/ardrive/broken-up/intro",
-  },
-  {
     title: "Concepts",
     initialOpenGroupIndex: -1,
     children: [
@@ -25,11 +21,12 @@ module.exports = [
     title: "Docs",
     children: [
       {
+        initialOpenGroupIndex: -1,
         title: "Ardrive",
         children: [
           {
             title: "Ardrive-CLI",
-            path: "/docs/ardrive/ardrive-cli",
+            path: "/docs/ardrive/ardrive-cli/intro",
           },
           {
             title: "Ardrive Core SDK",
@@ -42,7 +39,7 @@ module.exports = [
         ],
       },
       {
-        title: "Ar.io",
+        title: "ar.io",
         children: [
           {
             title: "Arweave Gateway",
@@ -67,23 +64,9 @@ module.exports = [
       },
     ],
   },
-  // {
-  //   title: "Standards",
-  //   children: [
-  //     {
-  //       title: "Nothing here",
-  //       collapsable: false,
-  //       path: "/standards/nothing-here",
-  //     },
-  //     {
-  //       title: "maybe later",
-  //       collapsable: false,
-  //       path: "/standards/maybe-later",
-  //     },
-  //   ],
-  // },
+
   {
     title: "Contribute",
-    path: "/contribute/contribute",
+    path: "/contribute/prerequisites",
   },
 ];

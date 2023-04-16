@@ -1,5 +1,5 @@
 ---
-sidebar: auto
+
 ---
 
 # Contributing to ar.io docs
@@ -140,7 +140,7 @@ Each category exists as a JSON object in the config file with the first key bein
         ],
       },
       {
-        title: "Ar.io",
+        title: "ar.io",
         children: [
           {
             title: "Arweave Gateway",
@@ -157,7 +157,7 @@ You need to find where your new page should appear in the sidebar, and add a new
 
 ```
       {
-        title: "Ar.io",
+        title: "ar.io",
         children: [
           {
             title: "Arweave Gateway",

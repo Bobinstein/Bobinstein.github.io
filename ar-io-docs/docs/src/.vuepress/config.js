@@ -2,6 +2,7 @@ const { description } = require("../../package");
 // sidebar config imports
 const ardrive_cli_sidebar_config = require('./sidebar_configs/ardrive_cli_config')
 const default_sidebar_config = require('./sidebar_configs/default_config')
+const contribute_sidebar_config = require('./sidebar_configs/contribute_config')
 
 // nav bar config imports
 const default_navbar_config = require('./navbar_configs/default_config')
@@ -10,7 +11,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: "Ar.io",
+  title: "ar.io",
   base: "/docs/",
 
   /**
@@ -52,8 +53,13 @@ module.exports = {
     //   component: '@theme/global-components/Navbar.vue'
     // },
     sidebar: {
-      // ardrive cli broken up
-      "/docs/ardrive/broken-up/": ardrive_cli_sidebar_config,
+      // ardrive cli sidebar
+      "/docs/ardrive/ardrive-cli/": ardrive_cli_sidebar_config,
+      // Contribute Sidebar
+      "/contribute/": contribute_sidebar_config,
+
+      
+      // default sidebar MUST BE LAST ITEM!!!!!!
       "/": default_sidebar_config,
     },
     nav: default_navbar_config,

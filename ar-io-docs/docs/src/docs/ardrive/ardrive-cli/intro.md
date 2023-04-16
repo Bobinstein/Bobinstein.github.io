@@ -1,4 +1,5 @@
 ---
+sidebar: '/.vuepress/sidebar_configs/ardrive_cli_config.js'
 homepage: true
 ---
 
