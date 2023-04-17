@@ -47,11 +47,7 @@ module.exports = {
     lastUpdated: true,
     logo: "/images/elephant-light.png",
     smoothScroll: true,
-    initialOpenGroupIndex: -1,
-    // navbar: {
-    //   custom: true,
-    //   component: '@theme/global-components/Navbar.vue'
-    // },
+
     sidebar: {
       // ardrive cli sidebar
       "/docs/ardrive/ardrive-cli/": ardrive_cli_sidebar_config,

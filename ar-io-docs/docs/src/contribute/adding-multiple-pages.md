@@ -28,7 +28,7 @@ module.exports = []
 ```
 module.exports means that when another file tries to look at this file to import a value, it will return that array (the square brackets)
 
-Inside the array, you can set your actual sidebar configuration, which will be a series of JSON objects. Each object with have the key 'title' and its value will be the text displayed in the sidebar. Then set the key 'path' to the file path for each file.
+Inside the array, you can set your actual sidebar configuration, which will be a series of JSON objects. Each object with have the key 'title' and its value will be the text displayed in the sidebar. Then set the key 'path' to the file path for each file. The order in which you enter each object for your files determines the previous and next pages for links at the bottom of a page.
 ```
 module.exports = [
     {

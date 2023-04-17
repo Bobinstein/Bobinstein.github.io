@@ -2,6 +2,7 @@ module.exports = [
   {
     title: "Concepts",
     initialOpenGroupIndex: -1,
+    collapsable: true,
     children: [
       {
         title: "Overview",
@@ -22,6 +23,7 @@ module.exports = [
     children: [
       {
         initialOpenGroupIndex: -1,
+        collapsable: true,
         title: "Ardrive",
         children: [
           {

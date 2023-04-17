@@ -14,11 +14,18 @@ Once this is done, navigate in your terminal back to the root folder. Assuming y
 cd ../..
 ```
 Now you are ready to push your changes to your own github repository. There are more advanced options if you are familiar with git, but the following three commands are the simplest way to make sure all your changes are pushed to github
-- replace '< comment >' with a short explanation of the changes you made.
+- replace '\<comment>' with a short explanation of the changes you made.
 ```
 git add .
-git commit -m '< comment >'
+git commit -m '<comment>'
 git push
+```
+
+The method for pushing your changes to the repository using the branch method is substantially similar, you just need to indicate that you are pushing to a specific branch in the command by adding 'origin \<name of branch>'
+```
+git add .
+git commit -m '<comment>'
+git push origin <name of branch>
 ```
 
 ## Creating the Pull Request
