@@ -38,8 +38,8 @@ You can also link to local pages in this way
 
 External links (those that point to different websites) will include a symbol to let users know clicking on it will take them to a different site, local links will not. 
 
-> **[NOTE]** ==If you use an html a tag to generate an external link, will will not have the indicator symbol
+> **[NOTE]** If you use an HTML a tag to generate an external link, will will not have the indicator symbol
 
 ## HTML
 
-In addition to markdown specific codes, .md files support most html tags. No extra steps or formatting are required in order to use html tags, and attributes like 'class' can be included to support styling from the website's css file.
+In addition to markdown specific codes, .md files support most HTML tags. No extra steps or formatting are required in order to use HTML tags, and attributes like 'class' can be included to support styling from the website's css file. An excellent basic tutorial on using HTML can be found [here]('https://www.freecodecamp.org/news/html-full-course-for-beginners/')

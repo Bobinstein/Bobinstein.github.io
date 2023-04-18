@@ -47,6 +47,7 @@ module.exports = {
     lastUpdated: true,
     logo: "/images/elephant-light.png",
     smoothScroll: true,
+    footer: true,
 
     sidebar: {
       // ardrive cli sidebar
@@ -68,6 +69,7 @@ module.exports = {
     "@vuepress/plugin-back-to-top",
     "@vuepress/plugin-medium-zoom",
     "@goy/svg-icons",
+    '@vuepress/plugin-last-updated',
   ],
   dest: "../../docs",
 };
